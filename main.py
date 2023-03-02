@@ -14,15 +14,11 @@ if __name__ == '__main__':
     if data_type == "0":
         if data == "0":
             # save everything to png
-            vote_count.plot_society_vote_count(True)
-            sleep(1)
-            turnout.plot_society_turnout(True)
-            sleep(1)
-            vote_count.plot_department_vote_count(True)
-            sleep(1)
-            turnout.plot_department_turnout(True)
-            sleep(1)
-            vote_count_and_turnout.plot_department_vote_count_and_turnout(True)
+            vote_count.plot_society_vote_count()
+            turnout.plot_society_turnout()
+            vote_count.plot_department_vote_count()
+            turnout.plot_department_turnout()
+            vote_count_and_turnout.plot_department_vote_count_and_turnout()
         else:
             print("Invalid data type")
     elif data_type == "1":

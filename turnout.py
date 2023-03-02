@@ -3,7 +3,7 @@
 import utils
 
 
-def plot_society_turnout(save = False):
+def plot_society_turnout():
     # update the data in the file
     utils.get_society_data()
 
@@ -26,10 +26,10 @@ def plot_society_turnout(save = False):
     top_10 = sorted_dict[:10]
 
     # plot the top 10 societies
-    utils.plot_turnout_data(dict(top_10), "Top 10 Societies by Turnout", "Society", "Turnout Percentage", save)
+    utils.plot_turnout_data(dict(top_10), "Top 10 Societies by Turnout", "Society", "Turnout Percentage")
 
 
-def plot_department_turnout(save = False):
+def plot_department_turnout():
     # update the data in the file
     utils.get_department_data()
 
@@ -52,4 +52,4 @@ def plot_department_turnout(save = False):
     top_10 = sorted_dict[:10]
 
     # plot the top 10 departments
-    utils.plot_turnout_data(dict(top_10), "Top 10 Departments by Turnout", "Department", "Turnout Percentage", save)
+    utils.plot_turnout_data(dict(top_10), "Top 10 Departments by Turnout", "Department", "Turnout Percentage")
