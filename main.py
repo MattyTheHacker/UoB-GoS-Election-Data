@@ -1,5 +1,4 @@
 
-from time import sleep
 import vote_count
 import turnout
 import vote_count_and_turnout

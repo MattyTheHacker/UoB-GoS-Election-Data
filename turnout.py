@@ -49,7 +49,7 @@ def plot_department_turnout():
     sorted_dict = sorted(data_dict.items(), key=lambda x: x[1], reverse=True)
 
     # get the top 10 departments
-    top_10 = sorted_dict[:10]
+    top_10 = sorted_dict[1:11]
 
     # plot the top 10 departments
     utils.plot_turnout_data(dict(top_10), "Top 10 Departments by Turnout", "Department", "Turnout Percentage")
