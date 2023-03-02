@@ -1,5 +1,6 @@
 import vote_count
 import turnout
+import vote_count_and_turnout
 
 if __name__ == '__main__':
     # ask the user if they want society or department data
@@ -8,7 +9,17 @@ if __name__ == '__main__':
     # ask the user what type of data they want
     data = input("Do you want to get vote count (1) or turnout data (2)? ")
 
-    if data_type == "1":
+    if data_type == "0":
+        if data == "0":
+            # do everything
+            vote_count.plot_society_vote_count()
+            turnout.plot_society_turnout()
+            vote_count.plot_department_vote_count()
+            turnout.plot_department_turnout()
+            vote_count_and_turnout.plot_vote_count_and_turnout()
+        else :
+            print("Invalid data type")
+    elif data_type == "1":
         if data == "1":
             vote_count.plot_society_vote_count()
         elif data == "2":
@@ -24,4 +35,6 @@ if __name__ == '__main__':
             print("Invalid data type")
     elif data_type == "3":
         # plot the vote count for departments combined with their turnout
-        
+        vote_count_and_turnout.plot_vote_count_and_turnout()
+    else:
+        print("Invalid data type")
