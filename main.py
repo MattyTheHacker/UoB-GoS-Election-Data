@@ -1,3 +1,5 @@
+
+from time import sleep
 import vote_count
 import turnout
 import vote_count_and_turnout
@@ -13,9 +15,13 @@ if __name__ == '__main__':
         if data == "0":
             # save everything to png
             vote_count.plot_society_vote_count(True)
+            sleep(1)
             turnout.plot_society_turnout(True)
+            sleep(1)
             vote_count.plot_department_vote_count(True)
+            sleep(1)
             turnout.plot_department_turnout(True)
+            sleep(1)
             vote_count_and_turnout.plot_department_vote_count_and_turnout(True)
         else:
             print("Invalid data type")

@@ -58,7 +58,8 @@ def plot_turnout_data(data, title, x_label, y_label, save = False):
 
     if save:
         plt.savefig("graphs/" + title + ".png")
-    else: 
+    else:
+        plt.savefig("graphs/" + title + ".png")
         plt.show()
 
 
@@ -78,6 +79,7 @@ def plot_data(data, title, x_label, y_label, save = False):
         # save to the graphs folder
         plt.savefig("graphs/" + title + ".png")
     else:
+        plt.savefig("graphs/" + title + ".png")
         plt.show()
 
 
@@ -111,7 +113,9 @@ def plot_count_with_turnout(data, title, x_label, y_label, save = False):
     if save:
         plt.savefig("graphs/" + title + ".png")
     else:
+        plt.savefig("graphs/" + title + ".png")
         plt.show()
+        
 
 
 
