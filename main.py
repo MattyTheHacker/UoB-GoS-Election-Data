@@ -22,3 +22,6 @@ if __name__ == '__main__':
             turnout.plot_department_turnout()
         else:
             print("Invalid data type")
+    elif data_type == "3":
+        # plot the vote count for departments combined with their turnout
+        

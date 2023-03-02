@@ -9,6 +9,7 @@ import requests
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
+from textwrap import wrap
 
 # get the data from the guild website
 def get_data(url):
@@ -70,3 +71,39 @@ def plot_data(data, title, x_label, y_label):
         plt.text(i, v, str(round(v)), color='blue', fontweight='bold', horizontalalignment='center')
 
     plt.show()
+
+
+# create a plot with provided data, vote count with turnout in brackets
+def plot_count_with_turnout(data, title, x_label, y_label):
+    # separate the data into two lists, one for the vote count and one for the turnout
+    vote_count = []
+    turnout = []
+    labels = []
+
+    for key, value in data.items():
+        vote_count.append(value[0])
+        turnout.append(value[1])
+        labels.append(key)
+    
+    labels = ["\n".join(wrap(l, 11)) for l in labels]
+
+    # create the plot
+    plt.bar(labels, vote_count, align='center')
+    plt.title(title)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
+    # add values to the bars
+    for i, v in enumerate(vote_count):
+        # separate the strings first
+        label = str(round(v)) + " (" + str(round(turnout[i])) + "%)"
+
+        plt.text(i, v, label, color='black', fontweight='bold', horizontalalignment='center')
+
+    plt.show()
+
+
+
+
+
+
