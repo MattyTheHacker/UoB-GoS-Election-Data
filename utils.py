@@ -52,7 +52,7 @@ def plot_turnout_data(data, title, x_label, y_label):
     plt.ylabel(y_label)
 
     # add values to the bars
-    for i, v in enumerate(list(data.values())): 
+    for i, v in enumerate(list(data.values())):
         plt.text(i, v, str(round(v)) + "%", color='blue', fontweight='bold', horizontalalignment='center')
 
     plt.show()
@@ -66,7 +66,7 @@ def plot_data(data, title, x_label, y_label):
     plt.ylabel(y_label)
 
     # add values to the bars
-    for i, v in enumerate(list(data.values())): 
+    for i, v in enumerate(list(data.values())):
         plt.text(i, v, str(round(v)), color='blue', fontweight='bold', horizontalalignment='center')
 
     plt.show()

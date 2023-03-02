@@ -2,6 +2,7 @@
 
 import utils
 
+
 def plot_society_vote_count():
     # update the data in the file
     utils.get_society_data()
@@ -16,7 +17,7 @@ def plot_society_vote_count():
     for group in data["Groups"]:
         for society in group["Items"]:
             # add the society name and vote count to a dictionary
-            data_dict[society["Name"]] = society["Voters"]    
+            data_dict[society["Name"]] = society["Voters"]
 
     # sort the dictionary by the vote count, highest to lowest
     sorted_dict = sorted(data_dict.items(), key=lambda x: x[1], reverse=True)
@@ -26,6 +27,7 @@ def plot_society_vote_count():
 
     # plot the top 10 societies
     utils.plot_data(dict(top_10), "Top 10 Societies by Vote Count", "Society", "Vote Count")
+
 
 def plot_department_vote_count():
     # update the data in the file
@@ -41,7 +43,7 @@ def plot_department_vote_count():
     for group in data["Groups"]:
         for department in group["Items"]:
             # add the department name and vote count to a dictionary
-            data_dict[department["Name"]] = department["Voters"]    
+            data_dict[department["Name"]] = department["Voters"]
 
     # sort the dictionary by the vote count, highest to lowest
     sorted_dict = sorted(data_dict.items(), key=lambda x: x[1], reverse=True)
@@ -51,4 +53,3 @@ def plot_department_vote_count():
 
     # plot the top 10 departments
     utils.plot_data(dict(top_10), "Top 10 Departments by Vote Count", "Department", "Vote Count")
-
