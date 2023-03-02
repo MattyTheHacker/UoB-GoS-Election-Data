@@ -45,7 +45,7 @@ def load_data_from_file(filename):
     return data
 
 # create a plot with provided data
-def plot_turnout_data(data, title, x_label, y_label):
+def plot_turnout_data(data, title, x_label, y_label, save = False):
     plt.bar(list(data.keys()), list(data.values()), align='center')
     plt.title(title)
     plt.xticks(rotation=90)
@@ -56,10 +56,14 @@ def plot_turnout_data(data, title, x_label, y_label):
     for i, v in enumerate(list(data.values())):
         plt.text(i, v, str(round(v)) + "%", color='blue', fontweight='bold', horizontalalignment='center')
 
-    plt.show()
+    if save:
+        plt.savefig("graphs/" + title + ".png")
+    else: 
+        plt.show()
+
 
 # create a plot with provided data, non-percentage data
-def plot_data(data, title, x_label, y_label):
+def plot_data(data, title, x_label, y_label, save = False):
     plt.bar(list(data.keys()), list(data.values()), align='center')
     plt.title(title)
     plt.xticks(rotation=90)
@@ -70,11 +74,15 @@ def plot_data(data, title, x_label, y_label):
     for i, v in enumerate(list(data.values())):
         plt.text(i, v, str(round(v)), color='blue', fontweight='bold', horizontalalignment='center')
 
-    plt.show()
+    if save:
+        # save to the graphs folder
+        plt.savefig("graphs/" + title + ".png")
+    else:
+        plt.show()
 
 
 # create a plot with provided data, vote count with turnout in brackets
-def plot_count_with_turnout(data, title, x_label, y_label):
+def plot_count_with_turnout(data, title, x_label, y_label, save = False):
     # separate the data into two lists, one for the vote count and one for the turnout
     vote_count = []
     turnout = []
@@ -100,7 +108,10 @@ def plot_count_with_turnout(data, title, x_label, y_label):
 
         plt.text(i, v, label, color='black', fontweight='bold', horizontalalignment='center')
 
-    plt.show()
+    if save:
+        plt.savefig("graphs/" + title + ".png")
+    else:
+        plt.show()
 
 
 

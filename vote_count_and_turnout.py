@@ -1,7 +1,7 @@
 import utils
 
 # plot the vote count for departments combined with their turnout in brackets
-def plot_department_vote_count_and_turnout():
+def plot_department_vote_count_and_turnout(save = False):
     # update department data in the file 
     utils.get_department_data()
 
@@ -24,9 +24,5 @@ def plot_department_vote_count_and_turnout():
     top_10 = sorted_dict[:10]
 
     # plot the top 10 departments
-    utils.plot_count_with_turnout(dict(top_10), "Top 10 Departments by Vote Count", "Department", "Vote Count")
-
-
-plot_department_vote_count_and_turnout()
-
+    utils.plot_count_with_turnout(dict(top_10), "Top 10 Departments by Vote Count With Turnout", "Department", "Vote Count", save)
 
