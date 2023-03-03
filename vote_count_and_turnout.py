@@ -51,3 +51,76 @@ def plot_society_vote_count_and_turnout():
     # plot the top 10 societies
     utils.plot_count_with_turnout(dict(top_10), "Top 10 Societies by Vote Count With Turnout", "Society", "Vote Count")
 
+def plot_accommodation_vote_count_and_turnout():
+    # update accommodation data in the file
+    utils.get_accommodation_data()
+
+    # load the data from the file
+    data = utils.load_data_from_file("accommodation_data.json")
+
+    # create a dictionary to store the accommodation name and a touple of the vote count and turnout
+    accommodation_data = {}
+
+    # loop through the data and add the accommodation name and vote count to the dictionary
+    # format of the data is: [Groups] -> [Items] -> [Name, Turnout]
+    for group in data["Groups"]:
+        for item in group["Items"]:
+            accommodation_data[item["Name"]] = (item["Voters"], item["Turnout"])
+
+    # sort the dictionary by the vote count, highest to lowest
+    sorted_dict = sorted(accommodation_data.items(), key=lambda x: x[1][0], reverse=True)
+    
+    # take off the first value cos it's scuffed
+    sorted_dict = sorted_dict[1:]
+
+    # plot the top 10 accommodations
+    utils.plot_count_with_turnout(dict(sorted_dict), "Top 10 Accommodations by Vote Count With Turnout", "Accommodation", "Vote Count")
+
+def plot_student_type_vote_count_and_turnout():
+    # update student type data in the file
+    utils.get_student_type_data()
+
+    # load the data from the file
+    data = utils.load_data_from_file("student_type_data.json")
+
+    # create a dictionary to store the student type name and a touple of the vote count and turnout
+    student_type_data = {}
+
+    # loop through the data and add the student type name and vote count to the dictionary
+    # format of the data is: [Groups] -> [Items] -> [Name, Turnout]
+    for group in data["Groups"]:
+        for item in group["Items"]:
+            student_type_data[item["Name"]] = (item["Voters"], item["Turnout"])
+
+    # sort the dictionary by the vote count, highest to lowest
+    sorted_dict = sorted(student_type_data.items(), key=lambda x: x[1][0], reverse=True)
+
+    # plot the top 10 student types
+    utils.plot_count_with_turnout(dict(sorted_dict), "Top 10 Student Types by Vote Count With Turnout", "Student Type", "Vote Count")
+
+def plot_study_level_vote_count_and_turnout():
+    # update study level data in the file
+    utils.get_study_level_data()
+
+    # load the data from the file
+    data = utils.load_data_from_file("study_level_data.json")
+
+    # create a dictionary to store the study level name and a touple of the vote count and turnout
+    study_level_data = {}
+
+    # loop through the data and add the study level name and vote count to the dictionary
+    # format of the data is: [Groups] -> [Items] -> [Name, Turnout]
+    for group in data["Groups"]:
+        for item in group["Items"]:
+            study_level_data[item["Name"]] = (item["Voters"], item["Turnout"])
+
+    # sort the dictionary by the vote count, highest to lowest
+    sorted_dict = sorted(study_level_data.items(), key=lambda x: x[1][0], reverse=True)
+
+    # plot the top 10 study levels
+    utils.plot_count_with_turnout(dict(sorted_dict), "Top 10 Study Levels by Vote Count With Turnout", "Study Level", "Vote Count")
+
+
+
+
+

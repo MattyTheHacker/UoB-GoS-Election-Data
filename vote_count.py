@@ -53,3 +53,4 @@ def plot_department_vote_count():
 
     # plot the top 10 departments
     utils.plot_data(dict(top_10), "Top 10 Departments by Vote Count", "Department", "Vote Count")
+

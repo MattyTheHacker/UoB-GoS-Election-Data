@@ -1,0 +1,144 @@
+{
+    "Id": 107,
+    "Title": "Guild Elections 2023",
+    "Organisation": {
+        "Id": 6013,
+        "Name": "University of Birmingham Guild of Students",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "University of Birmingham Guild of Students"
+    },
+    "Eligible": 42866,
+    "Voters": 4274,
+    "NonVoters": 38592,
+    "Votes": 31328,
+    "PostCount": 16,
+    "CandidateCount": 31,
+    "IndividualCandidateCount": 31,
+    "DateGenerated": "2023-03-03T01:14:39.3523077+00:00",
+    "Groups": [
+        {
+            "Name": "Residency",
+            "Items": [
+                {
+                    "Name": "11 Pritchatts Road",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Aitken Wing",
+                    "Voters": 9,
+                    "NonVoters": 58,
+                    "Eligible": 67,
+                    "IsOtherItem": false,
+                    "Turnout": 13.4328358208955,
+                    "RelativeTurnout": 0.020995660896748
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 4008,
+                    "NonVoters": 37057,
+                    "Eligible": 41065,
+                    "IsOtherItem": true,
+                    "Turnout": 9.76013636917083,
+                    "RelativeTurnout": 9.35006765268511
+                },
+                {
+                    "Name": "Chamberlain",
+                    "Voters": 41,
+                    "NonVoters": 242,
+                    "Eligible": 283,
+                    "IsOtherItem": false,
+                    "Turnout": 14.4876325088339,
+                    "RelativeTurnout": 0.0956468996407409
+                },
+                {
+                    "Name": "Elgar Court",
+                    "Voters": 17,
+                    "NonVoters": 74,
+                    "Eligible": 91,
+                    "IsOtherItem": false,
+                    "Turnout": 18.6813186813187,
+                    "RelativeTurnout": 0.0396584705827462
+                },
+                {
+                    "Name": "Jarratt Hall",
+                    "Voters": 5,
+                    "NonVoters": 66,
+                    "Eligible": 71,
+                    "IsOtherItem": false,
+                    "Turnout": 7.04225352112676,
+                    "RelativeTurnout": 0.0116642560537489
+                },
+                {
+                    "Name": "Liberty Court",
+                    "Voters": 15,
+                    "NonVoters": 90,
+                    "Eligible": 105,
+                    "IsOtherItem": false,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 0.0349927681612467
+                },
+                {
+                    "Name": "Liberty Gardens",
+                    "Voters": 15,
+                    "NonVoters": 77,
+                    "Eligible": 92,
+                    "IsOtherItem": false,
+                    "Turnout": 16.304347826087,
+                    "RelativeTurnout": 0.0349927681612467
+                },
+                {
+                    "Name": "Maple Bank",
+                    "Voters": 20,
+                    "NonVoters": 154,
+                    "Eligible": 174,
+                    "IsOtherItem": false,
+                    "Turnout": 11.4942528735632,
+                    "RelativeTurnout": 0.0466570242149956
+                },
+                {
+                    "Name": "Mason",
+                    "Voters": 27,
+                    "NonVoters": 197,
+                    "Eligible": 224,
+                    "IsOtherItem": false,
+                    "Turnout": 12.0535714285714,
+                    "RelativeTurnout": 0.062986982690244
+                },
+                {
+                    "Name": "Pritchatts Park",
+                    "Voters": 30,
+                    "NonVoters": 200,
+                    "Eligible": 230,
+                    "IsOtherItem": false,
+                    "Turnout": 13.0434782608696,
+                    "RelativeTurnout": 0.0699855363224934
+                },
+                {
+                    "Name": "Shackleton",
+                    "Voters": 25,
+                    "NonVoters": 139,
+                    "Eligible": 164,
+                    "IsOtherItem": false,
+                    "Turnout": 15.2439024390244,
+                    "RelativeTurnout": 0.0583212802687444
+                },
+                {
+                    "Name": "Tennis Court",
+                    "Voters": 62,
+                    "NonVoters": 238,
+                    "Eligible": 300,
+                    "IsOtherItem": false,
+                    "Turnout": 20.6666666666667,
+                    "RelativeTurnout": 0.144636775066486
+                }
+            ]
+        }
+    ],
+    "Turnout": 9.97060607474455
+}

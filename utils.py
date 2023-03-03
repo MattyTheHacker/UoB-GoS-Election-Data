@@ -33,6 +33,41 @@ def get_society_data():
     data = get_data(url)
     save_formatted_data(data, "society_data.json")
 
+# get the most recent accommodation data from the guild website
+def get_accommodation_data():
+    url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/107?groupIds=5&sortBy=itemname&sortDirection=ascending"
+    data = get_data(url)
+    save_formatted_data(data, "accommodation_data.json")
+
+def get_student_type_data():
+    url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/107?groupIds=4&sortBy=itemname&sortDirection=ascending"
+    data = get_data(url)
+    save_formatted_data(data, "student_type_data.json")
+
+def get_study_level_data():
+    url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/107?groupIds=7&sortBy=itemname&sortDirection=ascending"
+    data = get_data(url)
+    save_formatted_data(data, "study_level_data.json")
+
+def get_all_data_in_one_file():
+    url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/107?groupIds=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20&sortBy=itemname&sortDirection=ascending"
+    data = get_data(url)
+    save_formatted_data(data, "all_data.json")
+
+# get all the most recent data from the guild website
+def get_all_data():
+    print("[INFO] Fetching department data...")
+    get_department_data()
+    print("[INFO] Fetching society data...")
+    get_society_data()
+    print("[INFO] Fetching accommodation data...")
+    get_accommodation_data()
+    print("[INFO] Fetching student type data...")
+    get_student_type_data()
+    print("[INFO] Fetching study level data...")
+    get_study_level_data()
+    print("[INFO] Fetching all data... done!")
+
 # Save json data to a csv file
 def save_data_to_csv(data, filename):
     df = pd.DataFrame(data)

@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42866,
-    "Voters": 4266,
-    "NonVoters": 38600,
-    "Votes": 31287,
+    "Voters": 4274,
+    "NonVoters": 38592,
+    "Votes": 31327,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T00:33:40.5787974+00:00",
+    "DateGenerated": "2023-03-03T01:14:38.1803277+00:00",
     "Groups": [
         {
             "Name": "All Societies",
@@ -616,12 +616,12 @@
                 },
                 {
                     "Name": "Esports",
-                    "Voters": 14,
-                    "NonVoters": 54,
+                    "Voters": 15,
+                    "NonVoters": 53,
                     "Eligible": 68,
                     "IsOtherItem": false,
-                    "Turnout": 20.5882352941176,
-                    "RelativeTurnout": 0.0326599169504969
+                    "Turnout": 22.0588235294118,
+                    "RelativeTurnout": 0.0349927681612467
                 },
                 {
                     "Name": "Filipino",
@@ -976,12 +976,12 @@
                 },
                 {
                     "Name": "Kickboxing",
-                    "Voters": 34,
-                    "NonVoters": 137,
+                    "Voters": 35,
+                    "NonVoters": 136,
                     "Eligible": 171,
                     "IsOtherItem": false,
-                    "Turnout": 19.8830409356725,
-                    "RelativeTurnout": 0.0793169411654925
+                    "Turnout": 20.4678362573099,
+                    "RelativeTurnout": 0.0816497923762422
                 },
                 {
                     "Name": "Labour",
@@ -1642,12 +1642,12 @@
                 },
                 {
                     "Name": "Sports Clubs",
-                    "Voters": 23,
-                    "NonVoters": 84,
+                    "Voters": 24,
+                    "NonVoters": 83,
                     "Eligible": 107,
                     "IsOtherItem": false,
-                    "Turnout": 21.4953271028037,
-                    "RelativeTurnout": 0.0536555778472449
+                    "Turnout": 22.4299065420561,
+                    "RelativeTurnout": 0.0559884290579947
                 },
                 {
                     "Name": "Sri Lankan Society",
@@ -1687,12 +1687,12 @@
                 },
                 {
                     "Name": "Tabletop Gaming",
-                    "Voters": 61,
-                    "NonVoters": 127,
+                    "Voters": 62,
+                    "NonVoters": 126,
                     "Eligible": 188,
                     "IsOtherItem": false,
-                    "Turnout": 32.4468085106383,
-                    "RelativeTurnout": 0.142303923855736
+                    "Turnout": 32.9787234042553,
+                    "RelativeTurnout": 0.144636775066486
                 },
                 {
                     "Name": "Taiwanese Society",
@@ -1922,5 +1922,5 @@
             ]
         }
     ],
-    "Turnout": 9.95194326505856
+    "Turnout": 9.97060607474455
 }
