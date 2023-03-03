@@ -128,6 +128,7 @@ def plot_count_with_turnout(data, title, x_label, y_label):
         vote_count.append(value[0])
         turnout.append(value[1])
         labels.append(key)
+        print(key, value[0], value[1])
     
     labels = ["\n".join(wrap(l, 11)) for l in labels]
 
@@ -149,7 +150,36 @@ def plot_count_with_turnout(data, title, x_label, y_label):
     # plt.show()
         
 
+def plot_turnout_with_vote_count(data, title, x_label, y_label):
+    # separate the data into lists
+    vote_count = []
+    turnout = []
+    labels = []
 
+    for key, value in data.items():
+        vote_count.append(value[0])
+        turnout.append(value[1])
+        labels.append(key)
+        print(key, value[0], value[1])
+
+    labels = ["\n".join(wrap(l, 11)) for l in labels]
+
+    # create the plot
+    plt.figure(figsize = (16, 12), dpi = 200)
+    plt.bar(labels, turnout, align='center')
+    plt.title(title)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
+    # add values to the bars
+    for i, v in enumerate(turnout):
+        # separate the strings first
+        label = str(round(v)) + "% (" + str(round(vote_count[i])) + ")"
+
+        plt.text(i, v, label, color='black', fontweight='bold', horizontalalignment='center')
+
+    plt.savefig("graphs/" + title + ".png")
+    
 
 
 

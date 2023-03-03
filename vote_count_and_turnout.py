@@ -121,32 +121,6 @@ def plot_study_level_vote_count_and_turnout():
     utils.plot_count_with_turnout(dict(sorted_dict), "Top 10 Study Levels by Vote Count With Turnout", "Study Level", "Vote Count")
 
 
-def plot_society_by_turnout_with_vote_count():
-    # update society data in the file
-    utils.get_society_data()
-
-    # load the data from the file
-    data = utils.load_data_from_file("society_data.json")
-
-    # create a dictionary to store the society name and a touple of the vote count and turnout
-    society_data = {}
-
-    # loop through the data and add the society name and vote count to the dictionary
-    # format of the data is: [Groups] -> [Items] -> [Name, Turnout]
-    for group in data["Groups"]:
-        for item in group["Items"]:
-            society_data[item["Name"]] = (item["Voters"], item["Turnout"])
-
-    # sort the dictionary by the turnout, highest to lowest
-    sorted_dict = sorted(society_data.items(), key=lambda x: x[1][1], reverse=True)
-
-    # get the top 10 societies
-    top_10 = sorted_dict[:10]
-
-    # plot the top 10 societies
-    utils.plot_count_with_turnout(dict(top_10), "Top 10 Societies by Turnout With Vote Count", "Society", "Turnout")
-
-
 def plot_society_by_vote_count_with_turnout():
     # update society data in the file
     utils.get_society_data()
@@ -163,17 +137,54 @@ def plot_society_by_vote_count_with_turnout():
         for item in group["Items"]:
             society_data[item["Name"]] = (item["Voters"], item["Turnout"])
 
-    # sort the dictionary by the vote count, highest to lowest
+    # sort the dictionary by the voter count, highest to lowest
+    # format of the dictionary is: {society_name: (vote_count, turnout)}
     sorted_dict = sorted(society_data.items(), key=lambda x: x[1][0], reverse=True)
 
     # get the top 10 societies
     top_10 = sorted_dict[:10]
 
     # plot the top 10 societies
-    utils.plot_count_with_turnout(dict(top_10), "Top 10 Societies by Vote Count With Turnout", "Society", "Vote Count")
+    utils.plot_count_with_turnout(dict(top_10), "Top 10 Societies by Vote Count With Turnout", "Society", "Turnout")
+
+    # plot the 11 - 20 societies
+    utils.plot_count_with_turnout(dict(sorted_dict[10:20]), "11 - 20 Societies by Vote Count With Turnout", "Society", "Turnout")
 
 
+def plot_society_by_turnout_with_vote_count():
+    # pull new data ordered by turnout
+    url = "https://www.guildofstudents.com/svc/voting/stats/election/membershipstats/107?groupIds=1&sortBy=Turnout&sortDirection=descending"
+
+    # get the data from the url
+    dw = utils.get_data(url)
+
+    # save data to file
+    utils.save_formatted_data(dw, "society_data_by_turnout.json")
+
+    # load data from file
+    data = utils.load_data_from_file("society_data_by_turnout.json")
+
+    # create a dictionary to store the society name and a touple of the vote count and turnout
+    society_data = {}
+
+    # loop through the data and add the society name and vote count to the dictionary
+    # format of the data is: [Groups] -> [Items] -> [Name, Turnout]
+    for group in data["Groups"]:
+        for item in group["Items"]:
+            society_data[item["Name"]] = (item["Voters"], item["Turnout"])
+
+    # sort the dictionary by turnout, highest to lowest
+    # data format is [Name, (Voters, Turnout)]
+    sorted_dict = sorted(society_data.items(), key=lambda x: x[1][1], reverse=True) 
+
+    # get the top 10 societies
+    top_10 = sorted_dict[:10]
+
+    # plot the top 10 societies
+    utils.plot_turnout_with_vote_count(dict(top_10), "Top 10 Societies by Vote Count With Turnout", "Society", "Vote Count")
+
+    # plot the 11 to 20 societies
+    utils.plot_turnout_with_vote_count(dict(sorted_dict[10:20]), "11 to 20 Societies by Vote Count With Turnout", "Society", "Vote Count")
 
 
-
-
+plot_society_by_vote_count_with_turnout()
