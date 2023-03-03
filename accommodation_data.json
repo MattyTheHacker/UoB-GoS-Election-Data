@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42882,
-    "Voters": 4337,
-    "NonVoters": 38545,
-    "Votes": 31799,
+    "Voters": 4859,
+    "NonVoters": 38023,
+    "Votes": 35268,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T09:08:26.4459558+00:00",
+    "DateGenerated": "2023-03-03T15:11:33.7009849+00:00",
     "Groups": [
         {
             "Name": "Residency",
@@ -31,39 +31,39 @@
                 },
                 {
                     "Name": "Aitken Wing",
-                    "Voters": 9,
-                    "NonVoters": 58,
+                    "Voters": 11,
+                    "NonVoters": 56,
                     "Eligible": 67,
                     "IsOtherItem": false,
-                    "Turnout": 13.4328358208955,
-                    "RelativeTurnout": 0.020987827060305
+                    "Turnout": 16.4179104477612,
+                    "RelativeTurnout": 0.0256517886292617
                 },
                 {
                     "Name": "All other values",
-                    "Voters": 4069,
-                    "NonVoters": 37012,
+                    "Voters": 4558,
+                    "NonVoters": 36523,
                     "Eligible": 41081,
                     "IsOtherItem": true,
-                    "Turnout": 9.90482218057009,
-                    "RelativeTurnout": 9.48882981204235
+                    "Turnout": 11.0951534772766,
+                    "RelativeTurnout": 10.6291684156523
                 },
                 {
                     "Name": "Chamberlain",
-                    "Voters": 41,
-                    "NonVoters": 242,
+                    "Voters": 44,
+                    "NonVoters": 239,
                     "Eligible": 283,
                     "IsOtherItem": false,
-                    "Turnout": 14.4876325088339,
-                    "RelativeTurnout": 0.0956112121636118
+                    "Turnout": 15.547703180212,
+                    "RelativeTurnout": 0.102607154517047
                 },
                 {
                     "Name": "Elgar Court",
-                    "Voters": 17,
-                    "NonVoters": 74,
+                    "Voters": 18,
+                    "NonVoters": 73,
                     "Eligible": 91,
                     "IsOtherItem": false,
-                    "Turnout": 18.6813186813187,
-                    "RelativeTurnout": 0.0396436733361317
+                    "Turnout": 19.7802197802198,
+                    "RelativeTurnout": 0.04197565412061
                 },
                 {
                     "Name": "Jarratt Hall",
@@ -76,69 +76,69 @@
                 },
                 {
                     "Name": "Liberty Court",
-                    "Voters": 15,
-                    "NonVoters": 90,
+                    "Voters": 20,
+                    "NonVoters": 85,
                     "Eligible": 105,
                     "IsOtherItem": false,
-                    "Turnout": 14.2857142857143,
-                    "RelativeTurnout": 0.034979711767175
+                    "Turnout": 19.047619047619,
+                    "RelativeTurnout": 0.0466396156895667
                 },
                 {
                     "Name": "Liberty Gardens",
-                    "Voters": 15,
-                    "NonVoters": 77,
+                    "Voters": 18,
+                    "NonVoters": 74,
                     "Eligible": 92,
                     "IsOtherItem": false,
-                    "Turnout": 16.304347826087,
-                    "RelativeTurnout": 0.034979711767175
+                    "Turnout": 19.5652173913043,
+                    "RelativeTurnout": 0.04197565412061
                 },
                 {
                     "Name": "Maple Bank",
-                    "Voters": 22,
-                    "NonVoters": 152,
+                    "Voters": 24,
+                    "NonVoters": 150,
                     "Eligible": 174,
                     "IsOtherItem": false,
-                    "Turnout": 12.6436781609195,
-                    "RelativeTurnout": 0.0513035772585234
+                    "Turnout": 13.7931034482759,
+                    "RelativeTurnout": 0.0559675388274801
                 },
                 {
                     "Name": "Mason",
-                    "Voters": 27,
-                    "NonVoters": 197,
+                    "Voters": 33,
+                    "NonVoters": 191,
                     "Eligible": 224,
                     "IsOtherItem": false,
-                    "Turnout": 12.0535714285714,
-                    "RelativeTurnout": 0.0629634811809151
+                    "Turnout": 14.7321428571429,
+                    "RelativeTurnout": 0.0769553658877851
                 },
                 {
                     "Name": "Pritchatts Park",
-                    "Voters": 30,
-                    "NonVoters": 200,
+                    "Voters": 33,
+                    "NonVoters": 197,
                     "Eligible": 230,
                     "IsOtherItem": false,
-                    "Turnout": 13.0434782608696,
-                    "RelativeTurnout": 0.0699594235343501
+                    "Turnout": 14.3478260869565,
+                    "RelativeTurnout": 0.0769553658877851
                 },
                 {
                     "Name": "Shackleton",
-                    "Voters": 25,
-                    "NonVoters": 139,
+                    "Voters": 30,
+                    "NonVoters": 134,
                     "Eligible": 164,
                     "IsOtherItem": false,
-                    "Turnout": 15.2439024390244,
-                    "RelativeTurnout": 0.0582995196119584
+                    "Turnout": 18.2926829268293,
+                    "RelativeTurnout": 0.0699594235343501
                 },
                 {
                     "Name": "Tennis Court",
-                    "Voters": 62,
-                    "NonVoters": 238,
+                    "Voters": 65,
+                    "NonVoters": 235,
                     "Eligible": 300,
                     "IsOtherItem": false,
-                    "Turnout": 20.6666666666667,
-                    "RelativeTurnout": 0.144582808637657
+                    "Turnout": 21.6666666666667,
+                    "RelativeTurnout": 0.151578750991092
                 }
             ]
         }
     ],
-    "Turnout": 10.1138006622825
+    "Turnout": 11.3310946317802
 }
