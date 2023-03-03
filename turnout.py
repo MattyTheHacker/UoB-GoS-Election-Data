@@ -23,7 +23,7 @@ def plot_society_turnout():
     sorted_dict = sorted(data_dict.items(), key=lambda x: x[1], reverse=True)
 
     # get the top 10 societies
-    top_10 = sorted_dict[:10]
+    top_10 = sorted_dict[2:12]
 
     # plot the top 10 societies
     utils.plot_turnout_data(dict(top_10), "Top 10 Societies by Turnout", "Society", "Turnout Percentage")

@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42866,
-    "Voters": 4218,
-    "NonVoters": 38648,
-    "Votes": 31011,
+    "Voters": 4266,
+    "NonVoters": 38600,
+    "Votes": 31287,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-02T23:05:04.4183267+00:00",
+    "DateGenerated": "2023-03-03T00:33:40.5787974+00:00",
     "Groups": [
         {
             "Name": "All Societies",
@@ -58,12 +58,12 @@
                 },
                 {
                     "Name": "African & Caribbean",
-                    "Voters": 54,
-                    "NonVoters": 310,
+                    "Voters": 55,
+                    "NonVoters": 309,
                     "Eligible": 364,
                     "IsOtherItem": false,
-                    "Turnout": 14.8351648351648,
-                    "RelativeTurnout": 0.125973965380488
+                    "Turnout": 15.1098901098901,
+                    "RelativeTurnout": 0.128306816591238
                 },
                 {
                     "Name": "Afro-Dance",
@@ -94,12 +94,12 @@
                 },
                 {
                     "Name": "Anime & Manga",
-                    "Voters": 41,
-                    "NonVoters": 148,
+                    "Voters": 42,
+                    "NonVoters": 147,
                     "Eligible": 189,
                     "IsOtherItem": false,
-                    "Turnout": 21.6931216931217,
-                    "RelativeTurnout": 0.0956468996407409
+                    "Turnout": 22.2222222222222,
+                    "RelativeTurnout": 0.0979797508514907
                 },
                 {
                     "Name": "Archaeology",
@@ -166,12 +166,12 @@
                 },
                 {
                     "Name": "Baking",
-                    "Voters": 62,
-                    "NonVoters": 202,
+                    "Voters": 63,
+                    "NonVoters": 201,
                     "Eligible": 264,
                     "IsOtherItem": false,
-                    "Turnout": 23.4848484848485,
-                    "RelativeTurnout": 0.144636775066486
+                    "Turnout": 23.8636363636364,
+                    "RelativeTurnout": 0.146969626277236
                 },
                 {
                     "Name": "BALADS",
@@ -229,21 +229,21 @@
                 },
                 {
                     "Name": "BioSoc",
-                    "Voters": 40,
-                    "NonVoters": 124,
+                    "Voters": 41,
+                    "NonVoters": 123,
                     "Eligible": 164,
                     "IsOtherItem": false,
-                    "Turnout": 24.390243902439,
-                    "RelativeTurnout": 0.0933140484299911
+                    "Turnout": 25.0,
+                    "RelativeTurnout": 0.0956468996407409
                 },
                 {
                     "Name": "Birmingham Investment and Finance",
-                    "Voters": 78,
-                    "NonVoters": 338,
+                    "Voters": 79,
+                    "NonVoters": 337,
                     "Eligible": 416,
                     "IsOtherItem": false,
-                    "Turnout": 18.75,
-                    "RelativeTurnout": 0.181962394438483
+                    "Turnout": 18.9903846153846,
+                    "RelativeTurnout": 0.184295245649232
                 },
                 {
                     "Name": "Birmingham Marxist Society",
@@ -382,12 +382,12 @@
                 },
                 {
                     "Name": "Chinese Christians Fellowship",
-                    "Voters": 3,
-                    "NonVoters": 7,
+                    "Voters": 4,
+                    "NonVoters": 6,
                     "Eligible": 10,
                     "IsOtherItem": false,
-                    "Turnout": 30.0,
-                    "RelativeTurnout": 0.00699855363224934
+                    "Turnout": 40.0,
+                    "RelativeTurnout": 0.00933140484299911
                 },
                 {
                     "Name": "Christians In Science",
@@ -589,12 +589,12 @@
                 },
                 {
                     "Name": "ELSA",
-                    "Voters": 22,
-                    "NonVoters": 104,
+                    "Voters": 23,
+                    "NonVoters": 103,
                     "Eligible": 126,
                     "IsOtherItem": false,
-                    "Turnout": 17.4603174603175,
-                    "RelativeTurnout": 0.0513227266364951
+                    "Turnout": 18.2539682539683,
+                    "RelativeTurnout": 0.0536555778472449
                 },
                 {
                     "Name": "Emirati Society",
@@ -616,12 +616,12 @@
                 },
                 {
                     "Name": "Esports",
-                    "Voters": 13,
-                    "NonVoters": 55,
+                    "Voters": 14,
+                    "NonVoters": 54,
                     "Eligible": 68,
                     "IsOtherItem": false,
-                    "Turnout": 19.1176470588235,
-                    "RelativeTurnout": 0.0303270657397471
+                    "Turnout": 20.5882352941176,
+                    "RelativeTurnout": 0.0326599169504969
                 },
                 {
                     "Name": "Filipino",
@@ -634,12 +634,12 @@
                 },
                 {
                     "Name": "Filmsoc",
-                    "Voters": 37,
-                    "NonVoters": 116,
+                    "Voters": 38,
+                    "NonVoters": 115,
                     "Eligible": 153,
                     "IsOtherItem": false,
-                    "Turnout": 24.1830065359477,
-                    "RelativeTurnout": 0.0863154947977418
+                    "Turnout": 24.8366013071895,
+                    "RelativeTurnout": 0.0886483460084916
                 },
                 {
                     "Name": "First Love",
@@ -697,12 +697,12 @@
                 },
                 {
                     "Name": "Ghanaian",
-                    "Voters": 11,
-                    "NonVoters": 30,
+                    "Voters": 12,
+                    "NonVoters": 29,
                     "Eligible": 41,
                     "IsOtherItem": false,
-                    "Turnout": 26.8292682926829,
-                    "RelativeTurnout": 0.0256613633182476
+                    "Turnout": 29.2682926829268,
+                    "RelativeTurnout": 0.0279942145289973
                 },
                 {
                     "Name": "Gilbert and Sullivan",
@@ -814,12 +814,12 @@
                 },
                 {
                     "Name": "History of Art",
-                    "Voters": 8,
-                    "NonVoters": 41,
+                    "Voters": 9,
+                    "NonVoters": 40,
                     "Eligible": 49,
                     "IsOtherItem": false,
-                    "Turnout": 16.3265306122449,
-                    "RelativeTurnout": 0.0186628096859982
+                    "Turnout": 18.3673469387755,
+                    "RelativeTurnout": 0.020995660896748
                 },
                 {
                     "Name": "Hong Kong PASS",
@@ -877,12 +877,12 @@
                 },
                 {
                     "Name": "Islamic",
-                    "Voters": 53,
-                    "NonVoters": 268,
+                    "Voters": 55,
+                    "NonVoters": 266,
                     "Eligible": 321,
                     "IsOtherItem": false,
-                    "Turnout": 16.5109034267913,
-                    "RelativeTurnout": 0.123641114169738
+                    "Turnout": 17.1339563862928,
+                    "RelativeTurnout": 0.128306816591238
                 },
                 {
                     "Name": "Islamic Arts and Heritage",
@@ -904,20 +904,20 @@
                 },
                 {
                     "Name": "Japan Society",
-                    "Voters": 3,
-                    "NonVoters": 11,
+                    "Voters": 4,
+                    "NonVoters": 10,
                     "Eligible": 14,
                     "IsOtherItem": false,
-                    "Turnout": 21.4285714285714,
-                    "RelativeTurnout": 0.00699855363224934
+                    "Turnout": 28.5714285714286,
+                    "RelativeTurnout": 0.00933140484299911
                 },
                 {
                     "Name": "Jazz Funk & Soul",
                     "Voters": 39,
-                    "NonVoters": 54,
-                    "Eligible": 93,
+                    "NonVoters": 55,
+                    "Eligible": 94,
                     "IsOtherItem": false,
-                    "Turnout": 41.9354838709677,
+                    "Turnout": 41.4893617021277,
                     "RelativeTurnout": 0.0909811972192414
                 },
                 {
@@ -1012,12 +1012,12 @@
                 },
                 {
                     "Name": "Law for Non-Law",
-                    "Voters": 2,
-                    "NonVoters": 13,
+                    "Voters": 3,
+                    "NonVoters": 12,
                     "Eligible": 15,
                     "IsOtherItem": false,
-                    "Turnout": 13.3333333333333,
-                    "RelativeTurnout": 0.00466570242149956
+                    "Turnout": 20.0,
+                    "RelativeTurnout": 0.00699855363224934
                 },
                 {
                     "Name": "Lebanese Society",
@@ -1129,12 +1129,12 @@
                 },
                 {
                     "Name": "Mixed Martial Arts",
-                    "Voters": 35,
-                    "NonVoters": 158,
+                    "Voters": 36,
+                    "NonVoters": 157,
                     "Eligible": 193,
                     "IsOtherItem": false,
-                    "Turnout": 18.1347150259067,
-                    "RelativeTurnout": 0.0816497923762422
+                    "Turnout": 18.6528497409326,
+                    "RelativeTurnout": 0.083982643586992
                 },
                 {
                     "Name": "Modern Languages",
@@ -1399,12 +1399,12 @@
                 },
                 {
                     "Name": "Powerlifting",
-                    "Voters": 17,
-                    "NonVoters": 79,
+                    "Voters": 18,
+                    "NonVoters": 78,
                     "Eligible": 96,
                     "IsOtherItem": false,
-                    "Turnout": 17.7083333333333,
-                    "RelativeTurnout": 0.0396584705827462
+                    "Turnout": 18.75,
+                    "RelativeTurnout": 0.041991321793496
                 },
                 {
                     "Name": "PPE Society",
@@ -1615,12 +1615,12 @@
                 },
                 {
                     "Name": "Sober Socials",
-                    "Voters": 61,
-                    "NonVoters": 105,
+                    "Voters": 62,
+                    "NonVoters": 104,
                     "Eligible": 166,
                     "IsOtherItem": false,
-                    "Turnout": 36.7469879518072,
-                    "RelativeTurnout": 0.142303923855736
+                    "Turnout": 37.3493975903614,
+                    "RelativeTurnout": 0.144636775066486
                 },
                 {
                     "Name": "Spanish",
@@ -1696,12 +1696,12 @@
                 },
                 {
                     "Name": "Taiwanese Society",
-                    "Voters": 3,
-                    "NonVoters": 16,
+                    "Voters": 4,
+                    "NonVoters": 15,
                     "Eligible": 19,
                     "IsOtherItem": false,
-                    "Turnout": 15.7894736842105,
-                    "RelativeTurnout": 0.00699855363224934
+                    "Turnout": 21.0526315789474,
+                    "RelativeTurnout": 0.00933140484299911
                 },
                 {
                     "Name": "Tamil",
@@ -1714,12 +1714,12 @@
                 },
                 {
                     "Name": "Tea Society",
-                    "Voters": 35,
-                    "NonVoters": 81,
+                    "Voters": 37,
+                    "NonVoters": 79,
                     "Eligible": 116,
                     "IsOtherItem": false,
-                    "Turnout": 30.1724137931034,
-                    "RelativeTurnout": 0.0816497923762422
+                    "Turnout": 31.8965517241379,
+                    "RelativeTurnout": 0.0863154947977418
                 },
                 {
                     "Name": "The Birmingham Footnotes Comedy Society",
@@ -1922,5 +1922,5 @@
             ]
         }
     ],
-    "Turnout": 9.83996640694256
+    "Turnout": 9.95194326505856
 }

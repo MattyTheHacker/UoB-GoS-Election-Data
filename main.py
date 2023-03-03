@@ -18,6 +18,7 @@ if __name__ == '__main__':
             vote_count.plot_department_vote_count()
             turnout.plot_department_turnout()
             vote_count_and_turnout.plot_department_vote_count_and_turnout()
+            vote_count_and_turnout.plot_society_vote_count_and_turnout()
         else:
             print("Invalid data type")
     elif data_type == "1":
@@ -25,6 +26,8 @@ if __name__ == '__main__':
             vote_count.plot_society_vote_count()
         elif data == "2":
             turnout.plot_society_turnout()
+        elif data == "3":
+            vote_count_and_turnout.plot_society_vote_count_and_turnout()
         else:
             print("Invalid data type")
     elif data_type == "2":
@@ -32,10 +35,9 @@ if __name__ == '__main__':
             vote_count.plot_department_vote_count()
         elif data == "2":
             turnout.plot_department_turnout()
+        elif data == "3":
+            vote_count_and_turnout.plot_department_vote_count_and_turnout()
         else:
             print("Invalid data type")
-    elif data_type == "3":
-        # plot the vote count for departments combined with their turnout
-        vote_count_and_turnout.plot_department_vote_count_and_turnout()
     else:
         print("Invalid data type")

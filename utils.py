@@ -46,10 +46,12 @@ def load_data_from_file(filename):
 
 # create a plot with provided data
 def plot_turnout_data(data, title, x_label, y_label):
-    plt.figure(figsize = (20, 16), dpi = 100)
-    plt.bar(list(data.keys()), list(data.values()), align='center')
+    # wrap labels
+    labels = ["\n".join(wrap(l, 11)) for l in list(data.keys())]
+
+    plt.figure(figsize = (12, 8), dpi = 100)
+    plt.bar(labels, list(data.values()), align='center')
     plt.title(title)
-    plt.xticks(rotation=90)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
 
@@ -63,10 +65,12 @@ def plot_turnout_data(data, title, x_label, y_label):
 
 # create a plot with provided data, non-percentage data
 def plot_data(data, title, x_label, y_label):
-    plt.figure(figsize = (20, 16), dpi = 100)
-    plt.bar(list(data.keys()), list(data.values()), align='center')
+    # wrap labels
+    labels = ["\n".join(wrap(l, 11)) for l in list(data.keys())]
+
+    plt.figure(figsize = (12, 8), dpi = 100)
+    plt.bar(labels, list(data.values()), align='center')
     plt.title(title)
-    plt.xticks(rotation=90)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
 
@@ -93,7 +97,7 @@ def plot_count_with_turnout(data, title, x_label, y_label):
     labels = ["\n".join(wrap(l, 11)) for l in labels]
 
     # create the plot
-    plt.figure(figsize = (20, 16), dpi = 100)
+    plt.figure(figsize = (16, 12), dpi = 200)
     plt.bar(labels, vote_count, align='center')
     plt.title(title)
     plt.xlabel(x_label)
