@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42882,
-    "Voters": 4859,
-    "NonVoters": 38023,
-    "Votes": 35269,
+    "Voters": 5007,
+    "NonVoters": 37875,
+    "Votes": 36206,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T15:11:37.1856991+00:00",
+    "DateGenerated": "2023-03-03T16:40:06.8149666+00:00",
     "Groups": [
         {
             "Name": "Student type",
@@ -31,33 +31,33 @@
                 },
                 {
                     "Name": "Postgraduate Research",
-                    "Voters": 223,
-                    "NonVoters": 4165,
+                    "Voters": 227,
+                    "NonVoters": 4161,
                     "Eligible": 4388,
                     "IsOtherItem": false,
-                    "Turnout": 5.0820419325433,
-                    "RelativeTurnout": 0.520031714938669
+                    "Turnout": 5.17319963536919,
+                    "RelativeTurnout": 0.529359638076582
                 },
                 {
                     "Name": "Postgraduate Taught",
-                    "Voters": 978,
-                    "NonVoters": 9881,
+                    "Voters": 994,
+                    "NonVoters": 9865,
                     "Eligible": 10859,
                     "IsOtherItem": false,
-                    "Turnout": 9.00635417625932,
-                    "RelativeTurnout": 2.28067720721981
+                    "Turnout": 9.15369739386684,
+                    "RelativeTurnout": 2.31798889977147
                 },
                 {
                     "Name": "Undergraduate",
-                    "Voters": 3658,
-                    "NonVoters": 23976,
+                    "Voters": 3786,
+                    "NonVoters": 23848,
                     "Eligible": 27634,
                     "IsOtherItem": false,
-                    "Turnout": 13.2373163494246,
-                    "RelativeTurnout": 8.53038570962175
+                    "Turnout": 13.700513859738,
+                    "RelativeTurnout": 8.82887925003498
                 }
             ]
         }
     ],
-    "Turnout": 11.3310946317802
+    "Turnout": 11.676227787883
 }
