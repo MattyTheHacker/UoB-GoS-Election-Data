@@ -8,14 +8,14 @@
         "Organisation": null,
         "FullName": "University of Birmingham Guild of Students"
     },
-    "Eligible": 42866,
-    "Voters": 4275,
-    "NonVoters": 38591,
-    "Votes": 31335,
+    "Eligible": 42882,
+    "Voters": 4329,
+    "NonVoters": 38553,
+    "Votes": 31751,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T01:18:19.0287121+00:00",
+    "DateGenerated": "2023-03-03T08:46:11.8266594+00:00",
     "Groups": [
         {
             "Name": "Student type",
@@ -31,33 +31,33 @@
                 },
                 {
                     "Name": "Postgraduate Research",
-                    "Voters": 190,
-                    "NonVoters": 4195,
-                    "Eligible": 4385,
+                    "Voters": 199,
+                    "NonVoters": 4189,
+                    "Eligible": 4388,
                     "IsOtherItem": false,
-                    "Turnout": 4.33295324971494,
-                    "RelativeTurnout": 0.443241730042458
+                    "Turnout": 4.53509571558797,
+                    "RelativeTurnout": 0.464064176111189
                 },
                 {
                     "Name": "Postgraduate Taught",
-                    "Voters": 876,
-                    "NonVoters": 9974,
-                    "Eligible": 10850,
+                    "Voters": 893,
+                    "NonVoters": 9966,
+                    "Eligible": 10859,
                     "IsOtherItem": false,
-                    "Turnout": 8.07373271889401,
-                    "RelativeTurnout": 2.04357766061681
+                    "Turnout": 8.2235933327194,
+                    "RelativeTurnout": 2.08245884053915
                 },
                 {
                     "Name": "Undergraduate",
-                    "Voters": 3209,
-                    "NonVoters": 24421,
-                    "Eligible": 27630,
+                    "Voters": 3237,
+                    "NonVoters": 24397,
+                    "Eligible": 27634,
                     "IsOtherItem": false,
-                    "Turnout": 11.6141874773797,
-                    "RelativeTurnout": 7.48611953529604
+                    "Turnout": 11.7138307881595,
+                    "RelativeTurnout": 7.54862179935637
                 }
             ]
         }
     ],
-    "Turnout": 9.9729389259553
+    "Turnout": 10.0951448160067
 }
