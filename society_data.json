@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42882,
-    "Voters": 4329,
-    "NonVoters": 38553,
-    "Votes": 31751,
+    "Voters": 4337,
+    "NonVoters": 38545,
+    "Votes": 31799,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T08:46:07.4512306+00:00",
+    "DateGenerated": "2023-03-03T09:08:24.8989392+00:00",
     "Groups": [
         {
             "Name": "All Societies",
@@ -301,12 +301,12 @@
                 },
                 {
                     "Name": "BUDS",
-                    "Voters": 152,
-                    "NonVoters": 461,
+                    "Voters": 153,
+                    "NonVoters": 460,
                     "Eligible": 613,
                     "IsOtherItem": false,
-                    "Turnout": 24.7960848287113,
-                    "RelativeTurnout": 0.354461079240707
+                    "Turnout": 24.9592169657422,
+                    "RelativeTurnout": 0.356793060025185
                 },
                 {
                     "Name": "Burn FM.com",
@@ -319,12 +319,12 @@
                 },
                 {
                     "Name": "Business",
-                    "Voters": 90,
-                    "NonVoters": 259,
+                    "Voters": 91,
+                    "NonVoters": 258,
                     "Eligible": 349,
                     "IsOtherItem": false,
-                    "Turnout": 25.7879656160458,
-                    "RelativeTurnout": 0.20987827060305
+                    "Turnout": 26.0744985673352,
+                    "RelativeTurnout": 0.212210251387529
                 },
                 {
                     "Name": "Calligraphy",
@@ -454,12 +454,12 @@
                 },
                 {
                     "Name": "Craft",
-                    "Voters": 53,
-                    "NonVoters": 167,
+                    "Voters": 54,
+                    "NonVoters": 166,
                     "Eligible": 220,
                     "IsOtherItem": false,
-                    "Turnout": 24.0909090909091,
-                    "RelativeTurnout": 0.123594981577352
+                    "Turnout": 24.5454545454545,
+                    "RelativeTurnout": 0.12592696236183
                 },
                 {
                     "Name": "Criminology",
@@ -661,12 +661,12 @@
                 },
                 {
                     "Name": "Folk",
-                    "Voters": 13,
-                    "NonVoters": 17,
+                    "Voters": 14,
+                    "NonVoters": 16,
                     "Eligible": 30,
                     "IsOtherItem": false,
-                    "Turnout": 43.3333333333333,
-                    "RelativeTurnout": 0.0303157501982184
+                    "Turnout": 46.6666666666667,
+                    "RelativeTurnout": 0.0326477309826967
                 },
                 {
                     "Name": "Game of Thrones",
@@ -715,12 +715,12 @@
                 },
                 {
                     "Name": "Gin",
-                    "Voters": 11,
-                    "NonVoters": 35,
+                    "Voters": 12,
+                    "NonVoters": 34,
                     "Eligible": 46,
                     "IsOtherItem": false,
-                    "Turnout": 23.9130434782609,
-                    "RelativeTurnout": 0.0256517886292617
+                    "Turnout": 26.0869565217391,
+                    "RelativeTurnout": 0.02798376941374
                 },
                 {
                     "Name": "Gluten Free Society",
@@ -832,12 +832,12 @@
                 },
                 {
                     "Name": "Hookers and Stitchers",
-                    "Voters": 49,
-                    "NonVoters": 102,
+                    "Voters": 50,
+                    "NonVoters": 101,
                     "Eligible": 151,
                     "IsOtherItem": false,
-                    "Turnout": 32.4503311258278,
-                    "RelativeTurnout": 0.114267058439438
+                    "Turnout": 33.112582781457,
+                    "RelativeTurnout": 0.116599039223917
                 },
                 {
                     "Name": "HSE",
@@ -913,12 +913,12 @@
                 },
                 {
                     "Name": "Jazz Funk & Soul",
-                    "Voters": 39,
-                    "NonVoters": 55,
+                    "Voters": 40,
+                    "NonVoters": 54,
                     "Eligible": 94,
                     "IsOtherItem": false,
-                    "Turnout": 41.4893617021277,
-                    "RelativeTurnout": 0.0909472505946551
+                    "Turnout": 42.5531914893617,
+                    "RelativeTurnout": 0.0932792313791334
                 },
                 {
                     "Name": "Jewish",
@@ -1102,12 +1102,12 @@
                 },
                 {
                     "Name": "Mathsoc",
-                    "Voters": 67,
-                    "NonVoters": 172,
+                    "Voters": 68,
+                    "NonVoters": 171,
                     "Eligible": 239,
                     "IsOtherItem": false,
-                    "Turnout": 28.0334728033473,
-                    "RelativeTurnout": 0.156242712560048
+                    "Turnout": 28.4518828451883,
+                    "RelativeTurnout": 0.158574693344527
                 },
                 {
                     "Name": "Metal",
@@ -1345,12 +1345,12 @@
                 },
                 {
                     "Name": "Planning",
-                    "Voters": 10,
-                    "NonVoters": 36,
+                    "Voters": 11,
+                    "NonVoters": 35,
                     "Eligible": 46,
                     "IsOtherItem": false,
-                    "Turnout": 21.7391304347826,
-                    "RelativeTurnout": 0.0233198078447834
+                    "Turnout": 23.9130434782609,
+                    "RelativeTurnout": 0.0256517886292617
                 },
                 {
                     "Name": "Poker",
@@ -1922,5 +1922,5 @@
             ]
         }
     ],
-    "Turnout": 10.0951448160067
+    "Turnout": 10.1138006622825
 }

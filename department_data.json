@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42882,
-    "Voters": 4329,
-    "NonVoters": 38553,
-    "Votes": 31751,
+    "Voters": 4337,
+    "NonVoters": 38545,
+    "Votes": 31799,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T08:46:05.8260728+00:00",
+    "DateGenerated": "2023-03-03T09:08:23.9301075+00:00",
     "Groups": [
         {
             "Name": "Department",
@@ -58,12 +58,12 @@
                 },
                 {
                     "Name": "Art Hist, Cur and Vis Studies",
-                    "Voters": 11,
-                    "NonVoters": 135,
+                    "Voters": 12,
+                    "NonVoters": 134,
                     "Eligible": 146,
                     "IsOtherItem": false,
-                    "Turnout": 7.53424657534247,
-                    "RelativeTurnout": 0.0256517886292617
+                    "Turnout": 8.21917808219178,
+                    "RelativeTurnout": 0.02798376941374
                 },
                 {
                     "Name": "Bhm Clinical Trial Unit (BCTU)",
@@ -139,12 +139,12 @@
                 },
                 {
                     "Name": "Chemical Engineering",
-                    "Voters": 103,
-                    "NonVoters": 895,
+                    "Voters": 105,
+                    "NonVoters": 893,
                     "Eligible": 998,
                     "IsOtherItem": false,
-                    "Turnout": 10.3206412825651,
-                    "RelativeTurnout": 0.240194020801269
+                    "Turnout": 10.5210420841683,
+                    "RelativeTurnout": 0.244857982370225
                 },
                 {
                     "Name": "Chemistry",
@@ -175,12 +175,12 @@
                 },
                 {
                     "Name": "Computer Science",
-                    "Voters": 325,
-                    "NonVoters": 1730,
+                    "Voters": 326,
+                    "NonVoters": 1729,
                     "Eligible": 2055,
                     "IsOtherItem": false,
-                    "Turnout": 15.8150851581509,
-                    "RelativeTurnout": 0.757893754955459
+                    "Turnout": 15.8637469586375,
+                    "RelativeTurnout": 0.760225735739938
                 },
                 {
                     "Name": "COS - College Hub",
@@ -247,12 +247,12 @@
                 },
                 {
                     "Name": "Education & Social Justice",
-                    "Voters": 57,
-                    "NonVoters": 564,
+                    "Voters": 58,
+                    "NonVoters": 563,
                     "Eligible": 621,
                     "IsOtherItem": false,
-                    "Turnout": 9.17874396135266,
-                    "RelativeTurnout": 0.132922904715265
+                    "Turnout": 9.33977455716586,
+                    "RelativeTurnout": 0.135254885499743
                 },
                 {
                     "Name": "Elec, Elec & Sys Engineering",
@@ -319,12 +319,12 @@
                 },
                 {
                     "Name": "Geography",
-                    "Voters": 109,
-                    "NonVoters": 708,
+                    "Voters": 110,
+                    "NonVoters": 707,
                     "Eligible": 817,
                     "IsOtherItem": false,
-                    "Turnout": 13.3414932680539,
-                    "RelativeTurnout": 0.254185905508139
+                    "Turnout": 13.4638922888617,
+                    "RelativeTurnout": 0.256517886292617
                 },
                 {
                     "Name": "Golf Studies",
@@ -490,12 +490,12 @@
                 },
                 {
                     "Name": "Mathematics",
-                    "Voters": 137,
-                    "NonVoters": 1614,
+                    "Voters": 138,
+                    "NonVoters": 1613,
                     "Eligible": 1751,
                     "IsOtherItem": false,
-                    "Turnout": 7.824100513992,
-                    "RelativeTurnout": 0.319481367473532
+                    "Turnout": 7.88121073672187,
+                    "RelativeTurnout": 0.32181334825801
                 },
                 {
                     "Name": "MDS - College Hub",
@@ -670,12 +670,12 @@
                 },
                 {
                     "Name": "Strategy and Int Business",
-                    "Voters": 56,
-                    "NonVoters": 492,
+                    "Voters": 57,
+                    "NonVoters": 491,
                     "Eligible": 548,
                     "IsOtherItem": false,
-                    "Turnout": 10.2189781021898,
-                    "RelativeTurnout": 0.130590923930787
+                    "Turnout": 10.4014598540146,
+                    "RelativeTurnout": 0.132922904715265
                 },
                 {
                     "Name": "Teacher Education",
@@ -716,5 +716,5 @@
             ]
         }
     ],
-    "Turnout": 10.0951448160067
+    "Turnout": 10.1138006622825
 }

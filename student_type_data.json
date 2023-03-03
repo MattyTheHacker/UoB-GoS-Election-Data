@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42882,
-    "Voters": 4329,
-    "NonVoters": 38553,
-    "Votes": 31751,
+    "Voters": 4337,
+    "NonVoters": 38545,
+    "Votes": 31799,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T08:46:10.5140312+00:00",
+    "DateGenerated": "2023-03-03T09:08:27.8522695+00:00",
     "Groups": [
         {
             "Name": "Mode of study",
@@ -31,12 +31,12 @@
                 },
                 {
                     "Name": "Full-time",
-                    "Voters": 4275,
-                    "NonVoters": 31326,
+                    "Voters": 4282,
+                    "NonVoters": 31319,
                     "Eligible": 35601,
                     "IsOtherItem": false,
-                    "Turnout": 12.0080896604028,
-                    "RelativeTurnout": 9.96921785364489
+                    "Turnout": 12.0277520294374,
+                    "RelativeTurnout": 9.98554171913624
                 },
                 {
                     "Name": "Other full-time.",
@@ -49,12 +49,12 @@
                 },
                 {
                     "Name": "Part-time.",
-                    "Voters": 50,
-                    "NonVoters": 7171,
+                    "Voters": 51,
+                    "NonVoters": 7170,
                     "Eligible": 7221,
                     "IsOtherItem": false,
-                    "Turnout": 0.692424871901399,
-                    "RelativeTurnout": 0.116599039223917
+                    "Turnout": 0.706273369339426,
+                    "RelativeTurnout": 0.118931020008395
                 },
                 {
                     "Name": "Writing-up - previously full-time.",
@@ -68,5 +68,5 @@
             ]
         }
     ],
-    "Turnout": 10.0951448160067
+    "Turnout": 10.1138006622825
 }

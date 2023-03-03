@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42882,
-    "Voters": 4329,
-    "NonVoters": 38553,
-    "Votes": 31751,
+    "Voters": 4337,
+    "NonVoters": 38545,
+    "Votes": 31799,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T08:46:09.3107995+00:00",
+    "DateGenerated": "2023-03-03T09:08:26.4459558+00:00",
     "Groups": [
         {
             "Name": "Residency",
@@ -40,12 +40,12 @@
                 },
                 {
                     "Name": "All other values",
-                    "Voters": 4062,
-                    "NonVoters": 37019,
+                    "Voters": 4069,
+                    "NonVoters": 37012,
                     "Eligible": 41081,
                     "IsOtherItem": true,
-                    "Turnout": 9.88778267325528,
-                    "RelativeTurnout": 9.472505946551
+                    "Turnout": 9.90482218057009,
+                    "RelativeTurnout": 9.48882981204235
                 },
                 {
                     "Name": "Chamberlain",
@@ -94,12 +94,12 @@
                 },
                 {
                     "Name": "Maple Bank",
-                    "Voters": 21,
-                    "NonVoters": 153,
+                    "Voters": 22,
+                    "NonVoters": 152,
                     "Eligible": 174,
                     "IsOtherItem": false,
-                    "Turnout": 12.0689655172414,
-                    "RelativeTurnout": 0.048971596474045
+                    "Turnout": 12.6436781609195,
+                    "RelativeTurnout": 0.0513035772585234
                 },
                 {
                     "Name": "Mason",
@@ -140,5 +140,5 @@
             ]
         }
     ],
-    "Turnout": 10.0951448160067
+    "Turnout": 10.1138006622825
 }
