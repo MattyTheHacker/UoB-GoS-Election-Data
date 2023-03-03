@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42866,
-    "Voters": 4274,
-    "NonVoters": 38592,
-    "Votes": 31327,
+    "Voters": 4275,
+    "NonVoters": 38591,
+    "Votes": 31335,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T01:14:38.1803277+00:00",
+    "DateGenerated": "2023-03-03T01:18:19.935055+00:00",
     "Groups": [
         {
             "Name": "All Societies",
@@ -1922,5 +1922,5 @@
             ]
         }
     ],
-    "Turnout": 9.97060607474455
+    "Turnout": 9.9729389259553
 }

@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42866,
-    "Voters": 4274,
-    "NonVoters": 38592,
-    "Votes": 31328,
+    "Voters": 4275,
+    "NonVoters": 38591,
+    "Votes": 31335,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T01:14:39.3523077+00:00",
+    "DateGenerated": "2023-03-03T01:18:16.3565912+00:00",
     "Groups": [
         {
             "Name": "Residency",
@@ -40,12 +40,12 @@
                 },
                 {
                     "Name": "All other values",
-                    "Voters": 4008,
-                    "NonVoters": 37057,
+                    "Voters": 4009,
+                    "NonVoters": 37056,
                     "Eligible": 41065,
                     "IsOtherItem": true,
-                    "Turnout": 9.76013636917083,
-                    "RelativeTurnout": 9.35006765268511
+                    "Turnout": 9.76257153293559,
+                    "RelativeTurnout": 9.35240050389586
                 },
                 {
                     "Name": "Chamberlain",
@@ -140,5 +140,5 @@
             ]
         }
     ],
-    "Turnout": 9.97060607474455
+    "Turnout": 9.9729389259553
 }

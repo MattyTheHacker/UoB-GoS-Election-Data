@@ -9,13 +9,13 @@
         "FullName": "University of Birmingham Guild of Students"
     },
     "Eligible": 42866,
-    "Voters": 4274,
-    "NonVoters": 38592,
-    "Votes": 31328,
+    "Voters": 4275,
+    "NonVoters": 38591,
+    "Votes": 31335,
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T01:14:41.7744067+00:00",
+    "DateGenerated": "2023-03-03T01:18:19.0287121+00:00",
     "Groups": [
         {
             "Name": "Student type",
@@ -40,12 +40,12 @@
                 },
                 {
                     "Name": "Postgraduate Taught",
-                    "Voters": 875,
-                    "NonVoters": 9975,
+                    "Voters": 876,
+                    "NonVoters": 9974,
                     "Eligible": 10850,
                     "IsOtherItem": false,
-                    "Turnout": 8.06451612903226,
-                    "RelativeTurnout": 2.04124480940606
+                    "Turnout": 8.07373271889401,
+                    "RelativeTurnout": 2.04357766061681
                 },
                 {
                     "Name": "Undergraduate",
@@ -59,5 +59,5 @@
             ]
         }
     ],
-    "Turnout": 9.97060607474455
+    "Turnout": 9.9729389259553
 }
