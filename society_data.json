@@ -15,7 +15,7 @@
     "PostCount": 16,
     "CandidateCount": 31,
     "IndividualCandidateCount": 31,
-    "DateGenerated": "2023-03-03T16:40:02.1426021+00:00",
+    "DateGenerated": "2023-03-03T16:47:10.0178186+00:00",
     "Groups": [
         {
             "Name": "All Societies",
@@ -239,10 +239,10 @@
                 {
                     "Name": "Birmingham Investment and Finance",
                     "Voters": 94,
-                    "NonVoters": 323,
-                    "Eligible": 417,
+                    "NonVoters": 324,
+                    "Eligible": 418,
                     "IsOtherItem": false,
-                    "Turnout": 22.5419664268585,
+                    "Turnout": 22.488038277512,
                     "RelativeTurnout": 0.219206193740964
                 },
                 {

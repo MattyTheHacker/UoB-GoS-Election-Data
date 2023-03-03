@@ -37,8 +37,10 @@ if __name__ == '__main__':
             vote_count_and_turnout.plot_student_type_vote_count_and_turnout()
             print("[INFO] Plotting study level vote count and turnout data...")
             vote_count_and_turnout.plot_study_level_vote_count_and_turnout()
-            print("[INFO] Plotting society vote count and turnout data...")
-            vote_count_and_turnout.plot_society_vote_count_and_turnout()
+            print("[INFO] Plotting society vote count by turnout data...")
+            vote_count_and_turnout.plot_society_by_turnout_with_vote_count()   
+            print("[INFO] Plotting society turnout by vote count data...")         
+            vote_count_and_turnout.plot_society_by_vote_count_with_turnout()
         else:
             print("Invalid data type")
     elif data_type == "1":
