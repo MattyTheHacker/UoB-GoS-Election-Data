@@ -1,0 +1,436 @@
+{
+    "Id": 38,
+    "Title": "Term 2 By-Election",
+    "Organisation": {
+        "Id": 8468,
+        "Name": "Democracy",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "Democracy"
+    },
+    "Eligible": 0,
+    "Voters": 33,
+    "NonVoters": -33,
+    "Votes": 70,
+    "PostCount": 4,
+    "CandidateCount": 5,
+    "IndividualCandidateCount": 4,
+    "DateGenerated": "2023-07-07T21:26:08.4673652+01:00",
+    "Groups": [
+        {
+            "Name": "Age range",
+            "Items": [
+                {
+                    "Name": "18 - 21",
+                    "Voters": 11,
+                    "NonVoters": 0,
+                    "Eligible": 11,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "22 - 25",
+                    "Voters": 11,
+                    "NonVoters": 0,
+                    "Eligible": 11,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "26 - 30",
+                    "Voters": 8,
+                    "NonVoters": 0,
+                    "Eligible": 8,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Over 30",
+                    "Voters": 3,
+                    "NonVoters": 0,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Data source",
+            "Items": [
+                {
+                    "Name": "FILE",
+                    "Voters": 33,
+                    "NonVoters": 0,
+                    "Eligible": 33,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Fees status",
+            "Items": [
+                {
+                    "Name": "Home/EU for fees",
+                    "Voters": 23,
+                    "NonVoters": 0,
+                    "Eligible": 23,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Overseas for fees",
+                    "Voters": 10,
+                    "NonVoters": 0,
+                    "Eligible": 10,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Mode of study",
+            "Items": [
+                {
+                    "Name": "Full-time",
+                    "Voters": 31,
+                    "NonVoters": 0,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Part-time.",
+                    "Voters": 2,
+                    "NonVoters": 0,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Writing-up - previously full-time.",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Residency",
+            "Items": [
+                {
+                    "Name": "11 Pritchatts Road",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 24,
+                    "NonVoters": 0,
+                    "Eligible": 24,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Chamberlain",
+                    "Voters": 3,
+                    "NonVoters": 0,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Elgar Court",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Jarratt Hall",
+                    "Voters": 4,
+                    "NonVoters": 0,
+                    "Eligible": 4,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Pritchatts Park",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Items": [
+                {
+                    "Name": "F",
+                    "Voters": 22,
+                    "NonVoters": 0,
+                    "Eligible": 22,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "M",
+                    "Voters": 10,
+                    "NonVoters": 0,
+                    "Eligible": 10,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "N",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Student type",
+            "Items": [
+                {
+                    "Name": "Postgraduate Research",
+                    "Voters": 3,
+                    "NonVoters": 0,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Postgraduate Taught",
+                    "Voters": 17,
+                    "NonVoters": 0,
+                    "Eligible": 17,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Undergraduate",
+                    "Voters": 13,
+                    "NonVoters": 0,
+                    "Eligible": 13,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Year of study",
+            "Items": [
+                {
+                    "Name": "1st year",
+                    "Voters": 22,
+                    "NonVoters": 0,
+                    "Eligible": 22,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "2nd year",
+                    "Voters": 5,
+                    "NonVoters": 0,
+                    "Eligible": 5,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "3rd year",
+                    "Voters": 3,
+                    "NonVoters": 0,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "4th year",
+                    "Voters": 2,
+                    "NonVoters": 0,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "6th year",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Department",
+            "Items": [
+                {
+                    "Name": "Classics, AH and Archaeology",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Computer Science",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Dept of Soc Pol and Soc Work",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Education & Social Justice",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "History",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "International Development",
+                    "Voters": 14,
+                    "NonVoters": 0,
+                    "Eligible": 14,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Law",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Metallurgy & Materials",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Modern Languages",
+                    "Voters": 2,
+                    "NonVoters": 0,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Music",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Physics & Astronomy",
+                    "Voters": 4,
+                    "NonVoters": 0,
+                    "Eligible": 4,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Political Sci & Intern'tl Stud",
+                    "Voters": 2,
+                    "NonVoters": 0,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "School of Biosciences",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "School of Govt & Society",
+                    "Voters": 2,
+                    "NonVoters": 0,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        }
+    ],
+    "Turnout": 0.0
+}

@@ -1,0 +1,337 @@
+{
+    "Id": 69,
+    "Title": "Student Rep (Term 2 (CC) 2018-19)",
+    "Organisation": {
+        "Id": 18585,
+        "Name": "Student Rep System",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "Student Rep System"
+    },
+    "Eligible": 0,
+    "Voters": 140,
+    "NonVoters": -140,
+    "Votes": 140,
+    "PostCount": 110,
+    "CandidateCount": 33,
+    "IndividualCandidateCount": 33,
+    "DateGenerated": "2023-07-07T21:26:16.7493768+01:00",
+    "Groups": [
+        {
+            "Name": "Age range",
+            "Items": [
+                {
+                    "Name": "16 - 17",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "18 - 21",
+                    "Voters": 131,
+                    "NonVoters": 0,
+                    "Eligible": 131,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "22 - 25",
+                    "Voters": 7,
+                    "NonVoters": 0,
+                    "Eligible": 7,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "26 - 30",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Data source",
+            "Items": [
+                {
+                    "Name": "FILE",
+                    "Voters": 140,
+                    "NonVoters": 0,
+                    "Eligible": 140,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Fees status",
+            "Items": [
+                {
+                    "Name": "Home/EU for fees",
+                    "Voters": 115,
+                    "NonVoters": 0,
+                    "Eligible": 115,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Overseas for fees",
+                    "Voters": 25,
+                    "NonVoters": 0,
+                    "Eligible": 25,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Mode of study",
+            "Items": [
+                {
+                    "Name": "Full-time",
+                    "Voters": 140,
+                    "NonVoters": 0,
+                    "Eligible": 140,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Writing-up - previously full-time.",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Residency",
+            "Items": [
+                {
+                    "Name": "11 Pritchatts Road",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Aitken Wing",
+                    "Voters": 2,
+                    "NonVoters": 0,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 87,
+                    "NonVoters": 0,
+                    "Eligible": 87,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Chamberlain",
+                    "Voters": 8,
+                    "NonVoters": 0,
+                    "Eligible": 8,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Elgar Court",
+                    "Voters": 4,
+                    "NonVoters": 0,
+                    "Eligible": 4,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Jarratt Hall",
+                    "Voters": 5,
+                    "NonVoters": 0,
+                    "Eligible": 5,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Liberty Close & Five Ways (incl. CLV & IQ5)",
+                    "Voters": 4,
+                    "NonVoters": 0,
+                    "Eligible": 4,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Liberty Court",
+                    "Voters": 2,
+                    "NonVoters": 0,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Maple Bank",
+                    "Voters": 3,
+                    "NonVoters": 0,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Mason",
+                    "Voters": 11,
+                    "NonVoters": 0,
+                    "Eligible": 11,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Pritchatts Park",
+                    "Voters": 7,
+                    "NonVoters": 0,
+                    "Eligible": 7,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Shackleton",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Tennis Court",
+                    "Voters": 6,
+                    "NonVoters": 0,
+                    "Eligible": 6,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Items": [
+                {
+                    "Name": "F",
+                    "Voters": 100,
+                    "NonVoters": 0,
+                    "Eligible": 100,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "M",
+                    "Voters": 40,
+                    "NonVoters": 0,
+                    "Eligible": 40,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Student type",
+            "Items": [
+                {
+                    "Name": "Undergraduate",
+                    "Voters": 140,
+                    "NonVoters": 0,
+                    "Eligible": 140,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Year of study",
+            "Items": [
+                {
+                    "Name": "1st year",
+                    "Voters": 72,
+                    "NonVoters": 0,
+                    "Eligible": 72,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "2nd year",
+                    "Voters": 68,
+                    "NonVoters": 0,
+                    "Eligible": 68,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Department",
+            "Items": [
+                {
+                    "Name": "Birmingham Business School",
+                    "Voters": 5,
+                    "NonVoters": 0,
+                    "Eligible": 5,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Law",
+                    "Voters": 26,
+                    "NonVoters": 0,
+                    "Eligible": 26,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Medicine and Medical Education",
+                    "Voters": 109,
+                    "NonVoters": 0,
+                    "Eligible": 109,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        }
+    ],
+    "Turnout": 0.0
+}

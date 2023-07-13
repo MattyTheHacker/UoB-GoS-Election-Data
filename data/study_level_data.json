@@ -1,0 +1,63 @@
+{
+    "Id": 107,
+    "Title": "Guild Elections 2023",
+    "Organisation": {
+        "Id": 6013,
+        "Name": "University of Birmingham Guild of Students",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "University of Birmingham Guild of Students"
+    },
+    "Eligible": 42882,
+    "Voters": 5007,
+    "NonVoters": 37875,
+    "Votes": 36206,
+    "PostCount": 16,
+    "CandidateCount": 31,
+    "IndividualCandidateCount": 31,
+    "DateGenerated": "2023-03-28T17:44:43.5873781+01:00",
+    "Groups": [
+        {
+            "Name": "Student type",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": true,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Postgraduate Research",
+                    "Voters": 227,
+                    "NonVoters": 4161,
+                    "Eligible": 4388,
+                    "IsOtherItem": false,
+                    "Turnout": 5.17319963536919,
+                    "RelativeTurnout": 0.529359638076582
+                },
+                {
+                    "Name": "Postgraduate Taught",
+                    "Voters": 994,
+                    "NonVoters": 9865,
+                    "Eligible": 10859,
+                    "IsOtherItem": false,
+                    "Turnout": 9.15369739386684,
+                    "RelativeTurnout": 2.31798889977147
+                },
+                {
+                    "Name": "Undergraduate",
+                    "Voters": 3786,
+                    "NonVoters": 23848,
+                    "Eligible": 27634,
+                    "IsOtherItem": false,
+                    "Turnout": 13.700513859738,
+                    "RelativeTurnout": 8.82887925003498
+                }
+            ]
+        }
+    ],
+    "Turnout": 11.676227787883
+}

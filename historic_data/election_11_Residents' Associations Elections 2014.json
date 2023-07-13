@@ -1,0 +1,166 @@
+{
+    "Id": 11,
+    "Title": "Residents' Associations Elections 2014",
+    "Organisation": {
+        "Id": 8468,
+        "Name": "Democracy",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "Democracy"
+    },
+    "Eligible": 0,
+    "Voters": 881,
+    "NonVoters": -881,
+    "Votes": 881,
+    "PostCount": 12,
+    "CandidateCount": 72,
+    "IndividualCandidateCount": 72,
+    "DateGenerated": "2023-07-07T21:25:44.418282+01:00",
+    "Groups": [
+        {
+            "Name": "Age range",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Data source",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Fees status",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Mode of study",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Writing-up - previously full-time.",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Residency",
+            "Items": [
+                {
+                    "Name": "11 Pritchatts Road",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Student type",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Year of study",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Department",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 881,
+                    "NonVoters": 0,
+                    "Eligible": 881,
+                    "IsOtherItem": true,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        }
+    ],
+    "Turnout": 0.0
+}

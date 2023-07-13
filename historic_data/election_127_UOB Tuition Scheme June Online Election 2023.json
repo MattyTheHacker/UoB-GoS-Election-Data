@@ -1,0 +1,220 @@
+{
+    "Id": 127,
+    "Title": "UOB Tuition Scheme June Online Election 2023",
+    "Organisation": {
+        "Id": 7671,
+        "Name": "UoB Tuition Scheme",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "UoB Tuition Scheme"
+    },
+    "Eligible": 3,
+    "Voters": 2,
+    "NonVoters": 1,
+    "Votes": 2,
+    "PostCount": 4,
+    "CandidateCount": 1,
+    "IndividualCandidateCount": 1,
+    "DateGenerated": "2023-07-07T21:28:20.4017697+01:00",
+    "Groups": [
+        {
+            "Name": "Age range",
+            "Items": [
+                {
+                    "Name": "18 - 21",
+                    "Voters": 1,
+                    "NonVoters": 1,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 50.0,
+                    "RelativeTurnout": 33.3333333333333
+                },
+                {
+                    "Name": "22 - 25",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 33.3333333333333
+                }
+            ]
+        },
+        {
+            "Name": "Data source",
+            "Items": [
+                {
+                    "Name": "FILE",
+                    "Voters": 2,
+                    "NonVoters": 1,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 66.6666666666666,
+                    "RelativeTurnout": 66.6666666666666
+                }
+            ]
+        },
+        {
+            "Name": "Fees status",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 2,
+                    "NonVoters": 1,
+                    "Eligible": 3,
+                    "IsOtherItem": true,
+                    "Turnout": 66.6666666666666,
+                    "RelativeTurnout": 66.6666666666666
+                }
+            ]
+        },
+        {
+            "Name": "Mode of study",
+            "Items": [
+                {
+                    "Name": "Full-time",
+                    "Voters": 2,
+                    "NonVoters": 1,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 66.6666666666666,
+                    "RelativeTurnout": 66.6666666666666
+                },
+                {
+                    "Name": "Writing-up - previously full-time.",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Residency",
+            "Items": [
+                {
+                    "Name": "11 Pritchatts Road",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 1,
+                    "NonVoters": 1,
+                    "Eligible": 2,
+                    "IsOtherItem": true,
+                    "Turnout": 50.0,
+                    "RelativeTurnout": 33.3333333333333
+                },
+                {
+                    "Name": "Tennis Court",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 33.3333333333333
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Items": [
+                {
+                    "Name": "F",
+                    "Voters": 1,
+                    "NonVoters": 1,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 50.0,
+                    "RelativeTurnout": 33.3333333333333
+                },
+                {
+                    "Name": "M",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 33.3333333333333
+                }
+            ]
+        },
+        {
+            "Name": "Student type",
+            "Items": [
+                {
+                    "Name": "Undergraduate",
+                    "Voters": 2,
+                    "NonVoters": 1,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 66.6666666666666,
+                    "RelativeTurnout": 66.6666666666666
+                }
+            ]
+        },
+        {
+            "Name": "Year of study",
+            "Items": [
+                {
+                    "Name": "3rd year",
+                    "Voters": 1,
+                    "NonVoters": 1,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 50.0,
+                    "RelativeTurnout": 33.3333333333333
+                },
+                {
+                    "Name": "4th year",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 33.3333333333333
+                }
+            ]
+        },
+        {
+            "Name": "Department",
+            "Items": [
+                {
+                    "Name": "Chemistry",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 33.3333333333333
+                },
+                {
+                    "Name": "Pharmacy",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Physics & Astronomy",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 33.3333333333333
+                }
+            ]
+        }
+    ],
+    "Turnout": 66.6666666666666
+}

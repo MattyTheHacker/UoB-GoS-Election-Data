@@ -1,1 +1,1 @@
-"# UoB-GoS-Election-Data" 
+# UoB-GoS-Election-Data

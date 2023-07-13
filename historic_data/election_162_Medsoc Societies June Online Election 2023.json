@@ -1,0 +1,391 @@
+{
+    "Id": 162,
+    "Title": "Medsoc Societies June Online Election 2023",
+    "Organisation": {
+        "Id": 6013,
+        "Name": "University of Birmingham Guild of Students",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "University of Birmingham Guild of Students"
+    },
+    "Eligible": 62,
+    "Voters": 7,
+    "NonVoters": 55,
+    "Votes": 12,
+    "PostCount": 85,
+    "CandidateCount": 3,
+    "IndividualCandidateCount": 2,
+    "DateGenerated": "2023-07-07T21:28:26.6211301+01:00",
+    "Groups": [
+        {
+            "Name": "Age range",
+            "Items": [
+                {
+                    "Name": "18 - 21",
+                    "Voters": 3,
+                    "NonVoters": 35,
+                    "Eligible": 38,
+                    "IsOtherItem": false,
+                    "Turnout": 7.89473684210526,
+                    "RelativeTurnout": 4.83870967741936
+                },
+                {
+                    "Name": "22 - 25",
+                    "Voters": 3,
+                    "NonVoters": 12,
+                    "Eligible": 15,
+                    "IsOtherItem": false,
+                    "Turnout": 20.0,
+                    "RelativeTurnout": 4.83870967741936
+                },
+                {
+                    "Name": "26 - 30",
+                    "Voters": 0,
+                    "NonVoters": 2,
+                    "Eligible": 2,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 1,
+                    "NonVoters": 6,
+                    "Eligible": 7,
+                    "IsOtherItem": true,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 1.61290322580645
+                }
+            ]
+        },
+        {
+            "Name": "Data source",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 1,
+                    "NonVoters": 6,
+                    "Eligible": 7,
+                    "IsOtherItem": true,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "FILE",
+                    "Voters": 6,
+                    "NonVoters": 49,
+                    "Eligible": 55,
+                    "IsOtherItem": false,
+                    "Turnout": 10.9090909090909,
+                    "RelativeTurnout": 9.67741935483871
+                }
+            ]
+        },
+        {
+            "Name": "Fees status",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 7,
+                    "NonVoters": 55,
+                    "Eligible": 62,
+                    "IsOtherItem": true,
+                    "Turnout": 11.2903225806452,
+                    "RelativeTurnout": 11.2903225806452
+                }
+            ]
+        },
+        {
+            "Name": "Mode of study",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 1,
+                    "NonVoters": 6,
+                    "Eligible": 7,
+                    "IsOtherItem": true,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "Full-time",
+                    "Voters": 6,
+                    "NonVoters": 49,
+                    "Eligible": 55,
+                    "IsOtherItem": false,
+                    "Turnout": 10.9090909090909,
+                    "RelativeTurnout": 9.67741935483871
+                },
+                {
+                    "Name": "Writing-up - previously full-time.",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Residency",
+            "Items": [
+                {
+                    "Name": "11 Pritchatts Road",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 7,
+                    "NonVoters": 52,
+                    "Eligible": 59,
+                    "IsOtherItem": true,
+                    "Turnout": 11.864406779661,
+                    "RelativeTurnout": 11.2903225806452
+                },
+                {
+                    "Name": "Jarratt Hall",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Mason",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Tennis Court",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 1,
+                    "NonVoters": 6,
+                    "Eligible": 7,
+                    "IsOtherItem": true,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "F",
+                    "Voters": 4,
+                    "NonVoters": 30,
+                    "Eligible": 34,
+                    "IsOtherItem": false,
+                    "Turnout": 11.7647058823529,
+                    "RelativeTurnout": 6.45161290322581
+                },
+                {
+                    "Name": "M",
+                    "Voters": 2,
+                    "NonVoters": 19,
+                    "Eligible": 21,
+                    "IsOtherItem": false,
+                    "Turnout": 9.52380952380952,
+                    "RelativeTurnout": 3.2258064516129
+                }
+            ]
+        },
+        {
+            "Name": "Student type",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 1,
+                    "NonVoters": 6,
+                    "Eligible": 7,
+                    "IsOtherItem": true,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "Postgraduate Taught",
+                    "Voters": 1,
+                    "NonVoters": 2,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 33.3333333333333,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "Undergraduate",
+                    "Voters": 5,
+                    "NonVoters": 47,
+                    "Eligible": 52,
+                    "IsOtherItem": false,
+                    "Turnout": 9.61538461538462,
+                    "RelativeTurnout": 8.06451612903226
+                }
+            ]
+        },
+        {
+            "Name": "Year of study",
+            "Items": [
+                {
+                    "Name": "1st year",
+                    "Voters": 4,
+                    "NonVoters": 17,
+                    "Eligible": 21,
+                    "IsOtherItem": false,
+                    "Turnout": 19.047619047619,
+                    "RelativeTurnout": 6.45161290322581
+                },
+                {
+                    "Name": "2nd year",
+                    "Voters": 1,
+                    "NonVoters": 14,
+                    "Eligible": 15,
+                    "IsOtherItem": false,
+                    "Turnout": 6.66666666666667,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "3rd year",
+                    "Voters": 0,
+                    "NonVoters": 8,
+                    "Eligible": 8,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "4th year",
+                    "Voters": 0,
+                    "NonVoters": 3,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "5th year",
+                    "Voters": 1,
+                    "NonVoters": 7,
+                    "Eligible": 8,
+                    "IsOtherItem": false,
+                    "Turnout": 12.5,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 1,
+                    "NonVoters": 6,
+                    "Eligible": 7,
+                    "IsOtherItem": true,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 1.61290322580645
+                }
+            ]
+        },
+        {
+            "Name": "Department",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 1,
+                    "NonVoters": 6,
+                    "Eligible": 7,
+                    "IsOtherItem": true,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "Biomedical Sciences",
+                    "Voters": 0,
+                    "NonVoters": 6,
+                    "Eligible": 6,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Birmingham Medical School",
+                    "Voters": 5,
+                    "NonVoters": 36,
+                    "Eligible": 41,
+                    "IsOtherItem": false,
+                    "Turnout": 12.1951219512195,
+                    "RelativeTurnout": 8.06451612903226
+                },
+                {
+                    "Name": "Dentistry",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Inst of Applied Health Res",
+                    "Voters": 1,
+                    "NonVoters": 0,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 100.0,
+                    "RelativeTurnout": 1.61290322580645
+                },
+                {
+                    "Name": "Inst of Cancer / Genomic Sci",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Inst of Immunol + Immunoth",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Pharmacy",
+                    "Voters": 0,
+                    "NonVoters": 3,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "School of Biosciences",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        }
+    ],
+    "Turnout": 11.2903225806452
+}

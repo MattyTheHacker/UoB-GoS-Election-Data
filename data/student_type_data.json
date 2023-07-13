@@ -1,0 +1,72 @@
+{
+    "Id": 107,
+    "Title": "Guild Elections 2023",
+    "Organisation": {
+        "Id": 6013,
+        "Name": "University of Birmingham Guild of Students",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "University of Birmingham Guild of Students"
+    },
+    "Eligible": 42882,
+    "Voters": 5007,
+    "NonVoters": 37875,
+    "Votes": 36206,
+    "PostCount": 16,
+    "CandidateCount": 31,
+    "IndividualCandidateCount": 31,
+    "DateGenerated": "2023-03-28T17:44:42.6029022+01:00",
+    "Groups": [
+        {
+            "Name": "Mode of study",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 0,
+                    "NonVoters": 1,
+                    "Eligible": 1,
+                    "IsOtherItem": true,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Full-time",
+                    "Voters": 4946,
+                    "NonVoters": 30655,
+                    "Eligible": 35601,
+                    "IsOtherItem": false,
+                    "Turnout": 13.8928681778602,
+                    "RelativeTurnout": 11.5339769600298
+                },
+                {
+                    "Name": "Other full-time.",
+                    "Voters": 4,
+                    "NonVoters": 55,
+                    "Eligible": 59,
+                    "IsOtherItem": false,
+                    "Turnout": 6.77966101694915,
+                    "RelativeTurnout": 0.00932792313791334
+                },
+                {
+                    "Name": "Part-time.",
+                    "Voters": 57,
+                    "NonVoters": 7164,
+                    "Eligible": 7221,
+                    "IsOtherItem": false,
+                    "Turnout": 0.789364353967594,
+                    "RelativeTurnout": 0.132922904715265
+                },
+                {
+                    "Name": "Writing-up - previously full-time.",
+                    "Voters": 0,
+                    "NonVoters": 0,
+                    "Eligible": 0,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                }
+            ]
+        }
+    ],
+    "Turnout": 11.676227787883
+}
