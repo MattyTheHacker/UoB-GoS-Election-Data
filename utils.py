@@ -52,20 +52,24 @@ def get_accommodation_data():
     data = get_data(url)
     save_formatted_data(data, "data/accommodation_data.json")
 
+
 def get_student_type_data():
     url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/107?groupIds=4&sortBy=itemname&sortDirection=ascending"
     data = get_data(url)
     save_formatted_data(data, "data/student_type_data.json")
+
 
 def get_study_level_data():
     url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/107?groupIds=7&sortBy=itemname&sortDirection=ascending"
     data = get_data(url)
     save_formatted_data(data, "data/study_level_data.json")
 
+
 def get_all_data_in_one_file():
     url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/107?groupIds=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20&sortBy=itemname&sortDirection=ascending"
     data = get_data(url)
     save_formatted_data(data, "data/all_data.json")
+
 
 def get_all_specific_election_data(election_id):
     url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/" + str(election_id) + "?groupIds=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20&sortBy=itemname&sortDirection=ascending"
@@ -77,7 +81,8 @@ def get_all_specific_election_data(election_id):
     # remove any invalid characters from the title
     title = sanitize(title)
 
-    save_formatted_data(data, str("historic_data/election_" + str(election_id) + "_" + title + ".json"))
+    save_formatted_data(data, str("historic_data/election_" +
+                        str(election_id) + "_" + title + ".json"))
     print("[INFO] Fetching data for election " + title + "... done!")
 
 # get all the most recent data from the guild website
@@ -101,7 +106,7 @@ def save_data_to_csv(data, filename):
 
 # save a dictionary to csv file
 def save_dictionary_to_csv(dictionary, filename):
-    with open (filename, 'w') as f:
+    with open(filename, 'w') as f:
         w = csv.DictWriter(f, dictionary.keys())
         w.writeheader()
         w.writerow(dictionary)
@@ -118,7 +123,7 @@ def plot_turnout_data(data, title, x_label, y_label):
     # wrap labels
     labels = ["\n".join(wrap(l, 11)) for l in list(data.keys())]
 
-    plt.figure(figsize = (12, 8), dpi = 100)
+    plt.figure(figsize=(12, 8), dpi=100)
     plt.bar(labels, list(data.values()), align='center')
     plt.title(title)
     plt.xlabel(x_label)
@@ -126,7 +131,8 @@ def plot_turnout_data(data, title, x_label, y_label):
 
     # add values to the bars
     for i, v in enumerate(list(data.values())):
-        plt.text(i, v, str(round(v)) + "%", color='blue', fontweight='bold', horizontalalignment='center')
+        plt.text(i, v, str(round(v)) + "%", color='blue',
+                 fontweight='bold', horizontalalignment='center')
 
     plt.savefig("graphs/" + title + ".png")
     # plt.show()
@@ -137,7 +143,7 @@ def plot_data(data, title, x_label, y_label):
     # wrap labels
     labels = ["\n".join(wrap(l, 11)) for l in list(data.keys())]
 
-    plt.figure(figsize = (12, 8), dpi = 100)
+    plt.figure(figsize=(12, 8), dpi=100)
     plt.bar(labels, list(data.values()), align='center')
     plt.title(title)
     plt.xlabel(x_label)
@@ -145,7 +151,8 @@ def plot_data(data, title, x_label, y_label):
 
     # add values to the bars
     for i, v in enumerate(list(data.values())):
-        plt.text(i, v, str(round(v)), color='blue', fontweight='bold', horizontalalignment='center')
+        plt.text(i, v, str(round(v)), color='blue',
+                 fontweight='bold', horizontalalignment='center')
 
     plt.savefig("graphs/" + title + ".png")
     # plt.show()
@@ -163,11 +170,11 @@ def plot_count_with_turnout(data, title, x_label, y_label):
         turnout.append(value[1])
         labels.append(key)
         # print(key, value[0], value[1])
-    
+
     labels = ["\n".join(wrap(l, 11)) for l in labels]
 
     # create the plot
-    plt.figure(figsize = (16, 12), dpi = 200)
+    plt.figure(figsize=(16, 12), dpi=200)
     plt.bar(labels, vote_count, align='center')
     plt.title(title)
     plt.xlabel(x_label)
@@ -178,11 +185,12 @@ def plot_count_with_turnout(data, title, x_label, y_label):
         # separate the strings first
         label = str(round(v)) + " (" + str(round(turnout[i])) + "%)"
 
-        plt.text(i, v, label, color='black', fontweight='bold', horizontalalignment='center')
+        plt.text(i, v, label, color='black', fontweight='bold',
+                 horizontalalignment='center')
 
     plt.savefig("graphs/" + title + ".png")
     # plt.show()
-        
+
 
 def plot_turnout_with_vote_count(data, title, x_label, y_label):
     # separate the data into lists
@@ -199,7 +207,7 @@ def plot_turnout_with_vote_count(data, title, x_label, y_label):
     labels = ["\n".join(wrap(l, 11)) for l in labels]
 
     # create the plot
-    plt.figure(figsize = (16, 12), dpi = 200)
+    plt.figure(figsize=(16, 12), dpi=200)
     plt.bar(labels, turnout, align='center')
     plt.title(title)
     plt.xlabel(x_label)
@@ -210,10 +218,10 @@ def plot_turnout_with_vote_count(data, title, x_label, y_label):
         # separate the strings first
         label = str(round(v)) + "% (" + str(round(vote_count[i])) + ")"
 
-        plt.text(i, v, label, color='black', fontweight='bold', horizontalalignment='center')
+        plt.text(i, v, label, color='black', fontweight='bold',
+                 horizontalalignment='center')
 
     plt.savefig("graphs/" + title + ".png")
-    
 
 
 # plot a pie chart with the provided data
@@ -250,7 +258,7 @@ def plot_historic_election_turnout(data):
     labels = ["\n".join(wrap(l, 9)) for l in labels]
 
     # create the plot
-    plt.figure(figsize = (20, 12), dpi = 200)
+    plt.figure(figsize=(20, 12), dpi=200)
     plt.bar(labels, turnout, align='edge', width=0.5)
     plt.title(title)
     plt.xlabel(x_label)
@@ -258,8 +266,9 @@ def plot_historic_election_turnout(data):
 
     # add values to the bars
     for i, v in enumerate(turnout):
-        plt.text(i, v, str(round(v)) + "%", color='black', fontweight='bold', horizontalalignment='center')
-    
+        plt.text(i, v, str(round(v)) + "%", color='black',
+                 fontweight='bold', horizontalalignment='center')
+
     # show the plot
     # plt.show()
 
