@@ -106,11 +106,12 @@ def save_data_to_csv(data, filename):
 
 # save a dictionary to csv file
 def save_dictionary_to_csv(dictionary, filename):
+    # we want to print the csv in the format of: key, value
     with open(filename, 'w') as f:
-        w = csv.DictWriter(f, dictionary.keys())
-        w.writeheader()
-        w.writerow(dictionary)
-
+        # write the headers, election ID and title
+        f.write("Election ID,Title\n")
+        for key in dictionary.keys():
+            f.write("%s,%s\n" % (key, dictionary[key]))
 
 # load json data from file
 def load_data_from_file(filename):
