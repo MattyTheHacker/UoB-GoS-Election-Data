@@ -8,6 +8,7 @@
 import requests
 import os
 import json
+import csv
 import pandas as pd
 import matplotlib.pyplot as plt
 from textwrap import wrap
@@ -97,6 +98,14 @@ def get_all_data():
 def save_data_to_csv(data, filename):
     df = pd.DataFrame(data)
     df.to_csv(filename, index=False)
+
+# save a dictionary to csv file
+def save_dictionary_to_csv(dictionary, filename):
+    with open (filename, 'w') as f:
+        w = csv.DictWriter(f, dictionary.keys())
+        w.writeheader()
+        w.writerow(dictionary)
+
 
 # load json data from file
 def load_data_from_file(filename):
